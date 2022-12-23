@@ -30,19 +30,20 @@
         {
             this.exam = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetTabControl3 = new MetroSet_UI.Controls.MetroSetTabControl();
+            this.createexan = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.viewexam = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.questionbank = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.description = new System.Windows.Forms.Label();
+            this.difficultylevel = new System.Windows.Forms.Label();
+            this.points = new System.Windows.Forms.Label();
+            this.classroomid = new System.Windows.Forms.Label();
+            this.topic = new System.Windows.Forms.Label();
             this.metroSetTabControl2 = new MetroSet_UI.Controls.MetroSetTabControl();
-            this.deletequestion = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.Edit = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.addquestion = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.Edit = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.deletequestion = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.uploadassignment = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.metroSetSetTabPage1 = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.classroomtitle = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.copyaccesscode = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.metroSetTabControl1 = new MetroSet_UI.Controls.MetroSetTabControl();
-            this.kryptonTextBox15 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
-            this.kryptonTextBox14 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.metroSetTabControl4 = new MetroSet_UI.Controls.MetroSetTabControl();
             this.metroSetSetTabPage2 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.assignment_description = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
@@ -58,14 +59,29 @@
             this.AssignmentLinkLabel = new System.Windows.Forms.Label();
             this.grade = new System.Windows.Forms.Label();
             this.metroSetSetTabPage3 = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.metroSetSetTabPage1 = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.copyaccesscode = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonTextBox14 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.kryptonTextBox15 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.classroomtitle = new System.Windows.Forms.Label();
+            this.metroSetTabControl1 = new MetroSet_UI.Controls.MetroSetTabControl();
+            this.kryptonTextBox2 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.kryptonTextBox4 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.kryptonTextBox5 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.topiccombobox = new MetroSet_UI.Controls.MetroSetComboBox();
+            this.classroomcombobox1 = new MetroSet_UI.Controls.MetroSetComboBox();
             this.exam.SuspendLayout();
+            this.metroSetTabControl3.SuspendLayout();
+            this.viewexam.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.questionbank.SuspendLayout();
             this.metroSetTabControl2.SuspendLayout();
             this.uploadassignment.SuspendLayout();
-            this.metroSetSetTabPage1.SuspendLayout();
-            this.metroSetTabControl1.SuspendLayout();
             this.metroSetTabControl4.SuspendLayout();
             this.metroSetSetTabPage2.SuspendLayout();
+            this.metroSetSetTabPage1.SuspendLayout();
+            this.metroSetTabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // exam
@@ -78,7 +94,7 @@
             this.exam.IsDerivedStyle = true;
             this.exam.Location = new System.Drawing.Point(4, 42);
             this.exam.Name = "exam";
-            this.exam.Size = new System.Drawing.Size(800, 417);
+            this.exam.Size = new System.Drawing.Size(867, 417);
             this.exam.Style = MetroSet_UI.Enums.Style.Light;
             this.exam.StyleManager = null;
             this.exam.TabIndex = 3;
@@ -92,12 +108,16 @@
             this.metroSetTabControl3.AnimateEasingType = MetroSet_UI.Enums.EasingType.CubeOut;
             this.metroSetTabControl3.AnimateTime = 200;
             this.metroSetTabControl3.BackgroundColor = System.Drawing.Color.White;
+            this.metroSetTabControl3.Controls.Add(this.createexan);
+            this.metroSetTabControl3.Controls.Add(this.viewexam);
+            this.metroSetTabControl3.Cursor = System.Windows.Forms.Cursors.Default;
             this.metroSetTabControl3.IsDerivedStyle = true;
             this.metroSetTabControl3.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl3.Location = new System.Drawing.Point(3, 15);
             this.metroSetTabControl3.Name = "metroSetTabControl3";
+            this.metroSetTabControl3.SelectedIndex = 1;
             this.metroSetTabControl3.SelectedTextColor = System.Drawing.Color.White;
-            this.metroSetTabControl3.Size = new System.Drawing.Size(794, 57);
+            this.metroSetTabControl3.Size = new System.Drawing.Size(861, 386);
             this.metroSetTabControl3.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.metroSetTabControl3.Speed = 100;
             this.metroSetTabControl3.Style = MetroSet_UI.Enums.Style.Light;
@@ -108,9 +128,67 @@
             this.metroSetTabControl3.UnselectedTextColor = System.Drawing.Color.Gray;
             this.metroSetTabControl3.UseAnimation = false;
             // 
+            // createexan
+            // 
+            this.createexan.BaseColor = System.Drawing.Color.White;
+            this.createexan.Font = null;
+            this.createexan.ImageIndex = 0;
+            this.createexan.ImageKey = null;
+            this.createexan.IsDerivedStyle = true;
+            this.createexan.Location = new System.Drawing.Point(4, 42);
+            this.createexan.Name = "createexan";
+            this.createexan.Size = new System.Drawing.Size(853, 340);
+            this.createexan.Style = MetroSet_UI.Enums.Style.Light;
+            this.createexan.StyleManager = null;
+            this.createexan.TabIndex = 0;
+            this.createexan.Text = "Create Exam";
+            this.createexan.ThemeAuthor = "Narwin";
+            this.createexan.ThemeName = "MetroLite";
+            this.createexan.ToolTipText = null;
+            // 
+            // viewexam
+            // 
+            this.viewexam.BaseColor = System.Drawing.Color.White;
+            this.viewexam.Controls.Add(this.dataGridView1);
+            this.viewexam.Font = null;
+            this.viewexam.ImageIndex = 0;
+            this.viewexam.ImageKey = null;
+            this.viewexam.IsDerivedStyle = true;
+            this.viewexam.Location = new System.Drawing.Point(4, 42);
+            this.viewexam.Name = "viewexam";
+            this.viewexam.Size = new System.Drawing.Size(853, 340);
+            this.viewexam.Style = MetroSet_UI.Enums.Style.Light;
+            this.viewexam.StyleManager = null;
+            this.viewexam.TabIndex = 1;
+            this.viewexam.Text = "View Exam";
+            this.viewexam.ThemeAuthor = "Narwin";
+            this.viewexam.ThemeName = "MetroLite";
+            this.viewexam.ToolTipText = null;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(34, 35);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(594, 150);
+            this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
+            // 
             // questionbank
             // 
             this.questionbank.BaseColor = System.Drawing.Color.White;
+            this.questionbank.Controls.Add(this.classroomcombobox1);
+            this.questionbank.Controls.Add(this.topiccombobox);
+            this.questionbank.Controls.Add(this.kryptonTextBox5);
+            this.questionbank.Controls.Add(this.kryptonTextBox4);
+            this.questionbank.Controls.Add(this.kryptonTextBox2);
+            this.questionbank.Controls.Add(this.description);
+            this.questionbank.Controls.Add(this.difficultylevel);
+            this.questionbank.Controls.Add(this.points);
+            this.questionbank.Controls.Add(this.classroomid);
+            this.questionbank.Controls.Add(this.topic);
             this.questionbank.Controls.Add(this.metroSetTabControl2);
             this.questionbank.Font = null;
             this.questionbank.ImageIndex = 0;
@@ -118,7 +196,7 @@
             this.questionbank.IsDerivedStyle = true;
             this.questionbank.Location = new System.Drawing.Point(4, 42);
             this.questionbank.Name = "questionbank";
-            this.questionbank.Size = new System.Drawing.Size(800, 417);
+            this.questionbank.Size = new System.Drawing.Size(867, 417);
             this.questionbank.Style = MetroSet_UI.Enums.Style.Light;
             this.questionbank.StyleManager = null;
             this.questionbank.TabIndex = 2;
@@ -126,6 +204,56 @@
             this.questionbank.ThemeAuthor = "Narwin";
             this.questionbank.ThemeName = "MetroLite";
             this.questionbank.ToolTipText = null;
+            // 
+            // description
+            // 
+            this.description.AutoSize = true;
+            this.description.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.description.Location = new System.Drawing.Point(51, 296);
+            this.description.Name = "description";
+            this.description.Size = new System.Drawing.Size(111, 22);
+            this.description.TabIndex = 123;
+            this.description.Text = "Description";
+            // 
+            // difficultylevel
+            // 
+            this.difficultylevel.AutoSize = true;
+            this.difficultylevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.difficultylevel.Location = new System.Drawing.Point(51, 242);
+            this.difficultylevel.Name = "difficultylevel";
+            this.difficultylevel.Size = new System.Drawing.Size(141, 22);
+            this.difficultylevel.TabIndex = 122;
+            this.difficultylevel.Text = "Difficulty_level";
+            // 
+            // points
+            // 
+            this.points.AutoSize = true;
+            this.points.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.points.Location = new System.Drawing.Point(51, 194);
+            this.points.Name = "points";
+            this.points.Size = new System.Drawing.Size(66, 22);
+            this.points.TabIndex = 121;
+            this.points.Text = "Points";
+            // 
+            // classroomid
+            // 
+            this.classroomid.AutoSize = true;
+            this.classroomid.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classroomid.Location = new System.Drawing.Point(37, 133);
+            this.classroomid.Name = "classroomid";
+            this.classroomid.Size = new System.Drawing.Size(134, 22);
+            this.classroomid.TabIndex = 120;
+            this.classroomid.Text = "Classroom_ID";
+            // 
+            // topic
+            // 
+            this.topic.AutoSize = true;
+            this.topic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.topic.Location = new System.Drawing.Point(51, 90);
+            this.topic.Name = "topic";
+            this.topic.Size = new System.Drawing.Size(60, 22);
+            this.topic.TabIndex = 119;
+            this.topic.Text = "Topic";
             // 
             // metroSetTabControl2
             // 
@@ -135,12 +263,12 @@
             this.metroSetTabControl2.Controls.Add(this.addquestion);
             this.metroSetTabControl2.Controls.Add(this.Edit);
             this.metroSetTabControl2.Controls.Add(this.deletequestion);
-            this.metroSetTabControl2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.metroSetTabControl2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroSetTabControl2.IsDerivedStyle = true;
             this.metroSetTabControl2.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl2.Location = new System.Drawing.Point(3, 15);
             this.metroSetTabControl2.Name = "metroSetTabControl2";
-            this.metroSetTabControl2.SelectedIndex = 2;
+            this.metroSetTabControl2.SelectedIndex = 0;
             this.metroSetTabControl2.SelectedTextColor = System.Drawing.Color.White;
             this.metroSetTabControl2.Size = new System.Drawing.Size(776, 49);
             this.metroSetTabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -152,42 +280,6 @@
             this.metroSetTabControl2.ThemeName = "MetroLite";
             this.metroSetTabControl2.UnselectedTextColor = System.Drawing.Color.Gray;
             this.metroSetTabControl2.UseAnimation = false;
-            // 
-            // deletequestion
-            // 
-            this.deletequestion.BaseColor = System.Drawing.Color.White;
-            this.deletequestion.Font = null;
-            this.deletequestion.ImageIndex = 0;
-            this.deletequestion.ImageKey = null;
-            this.deletequestion.IsDerivedStyle = true;
-            this.deletequestion.Location = new System.Drawing.Point(4, 42);
-            this.deletequestion.Name = "deletequestion";
-            this.deletequestion.Size = new System.Drawing.Size(768, 3);
-            this.deletequestion.Style = MetroSet_UI.Enums.Style.Light;
-            this.deletequestion.StyleManager = null;
-            this.deletequestion.TabIndex = 2;
-            this.deletequestion.Text = "Delete question";
-            this.deletequestion.ThemeAuthor = "Narwin";
-            this.deletequestion.ThemeName = "MetroLite";
-            this.deletequestion.ToolTipText = null;
-            // 
-            // Edit
-            // 
-            this.Edit.BaseColor = System.Drawing.Color.White;
-            this.Edit.Font = null;
-            this.Edit.ImageIndex = 0;
-            this.Edit.ImageKey = null;
-            this.Edit.IsDerivedStyle = true;
-            this.Edit.Location = new System.Drawing.Point(4, 42);
-            this.Edit.Name = "Edit";
-            this.Edit.Size = new System.Drawing.Size(768, 3);
-            this.Edit.Style = MetroSet_UI.Enums.Style.Light;
-            this.Edit.StyleManager = null;
-            this.Edit.TabIndex = 1;
-            this.Edit.Text = "Edit question";
-            this.Edit.ThemeAuthor = "Narwin";
-            this.Edit.ThemeName = "MetroLite";
-            this.Edit.ToolTipText = null;
             // 
             // addquestion
             // 
@@ -207,6 +299,42 @@
             this.addquestion.ThemeName = "MetroLite";
             this.addquestion.ToolTipText = null;
             // 
+            // Edit
+            // 
+            this.Edit.BaseColor = System.Drawing.Color.White;
+            this.Edit.Font = null;
+            this.Edit.ImageIndex = 0;
+            this.Edit.ImageKey = null;
+            this.Edit.IsDerivedStyle = true;
+            this.Edit.Location = new System.Drawing.Point(4, 42);
+            this.Edit.Name = "Edit";
+            this.Edit.Size = new System.Drawing.Size(768, 3);
+            this.Edit.Style = MetroSet_UI.Enums.Style.Light;
+            this.Edit.StyleManager = null;
+            this.Edit.TabIndex = 1;
+            this.Edit.Text = "Edit question";
+            this.Edit.ThemeAuthor = "Narwin";
+            this.Edit.ThemeName = "MetroLite";
+            this.Edit.ToolTipText = null;
+            // 
+            // deletequestion
+            // 
+            this.deletequestion.BaseColor = System.Drawing.Color.White;
+            this.deletequestion.Font = null;
+            this.deletequestion.ImageIndex = 0;
+            this.deletequestion.ImageKey = null;
+            this.deletequestion.IsDerivedStyle = true;
+            this.deletequestion.Location = new System.Drawing.Point(4, 42);
+            this.deletequestion.Name = "deletequestion";
+            this.deletequestion.Size = new System.Drawing.Size(768, 3);
+            this.deletequestion.Style = MetroSet_UI.Enums.Style.Light;
+            this.deletequestion.StyleManager = null;
+            this.deletequestion.TabIndex = 2;
+            this.deletequestion.Text = "Delete question";
+            this.deletequestion.ThemeAuthor = "Narwin";
+            this.deletequestion.ThemeName = "MetroLite";
+            this.deletequestion.ToolTipText = null;
+            // 
             // uploadassignment
             // 
             this.uploadassignment.BaseColor = System.Drawing.Color.White;
@@ -217,7 +345,7 @@
             this.uploadassignment.IsDerivedStyle = true;
             this.uploadassignment.Location = new System.Drawing.Point(4, 42);
             this.uploadassignment.Name = "uploadassignment";
-            this.uploadassignment.Size = new System.Drawing.Size(800, 417);
+            this.uploadassignment.Size = new System.Drawing.Size(867, 417);
             this.uploadassignment.Style = MetroSet_UI.Enums.Style.Light;
             this.uploadassignment.StyleManager = null;
             this.uploadassignment.TabIndex = 1;
@@ -225,187 +353,6 @@
             this.uploadassignment.ThemeAuthor = "Narwin";
             this.uploadassignment.ThemeName = "MetroLite";
             this.uploadassignment.ToolTipText = null;
-            // 
-            // metroSetSetTabPage1
-            // 
-            this.metroSetSetTabPage1.BaseColor = System.Drawing.Color.White;
-            this.metroSetSetTabPage1.Controls.Add(this.copyaccesscode);
-            this.metroSetSetTabPage1.Controls.Add(this.kryptonTextBox14);
-            this.metroSetSetTabPage1.Controls.Add(this.label17);
-            this.metroSetSetTabPage1.Controls.Add(this.kryptonTextBox15);
-            this.metroSetSetTabPage1.Controls.Add(this.classroomtitle);
-            this.metroSetSetTabPage1.Font = null;
-            this.metroSetSetTabPage1.ImageIndex = 0;
-            this.metroSetSetTabPage1.ImageKey = null;
-            this.metroSetSetTabPage1.IsDerivedStyle = true;
-            this.metroSetSetTabPage1.Location = new System.Drawing.Point(4, 42);
-            this.metroSetSetTabPage1.Name = "metroSetSetTabPage1";
-            this.metroSetSetTabPage1.Size = new System.Drawing.Size(800, 417);
-            this.metroSetSetTabPage1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetSetTabPage1.StyleManager = null;
-            this.metroSetSetTabPage1.TabIndex = 0;
-            this.metroSetSetTabPage1.Text = "Info";
-            this.metroSetSetTabPage1.ThemeAuthor = "Narwin";
-            this.metroSetSetTabPage1.ThemeName = "MetroLite";
-            this.metroSetSetTabPage1.ToolTipText = null;
-            // 
-            // classroomtitle
-            // 
-            this.classroomtitle.AutoSize = true;
-            this.classroomtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.classroomtitle.Location = new System.Drawing.Point(42, 78);
-            this.classroomtitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.classroomtitle.Name = "classroomtitle";
-            this.classroomtitle.Size = new System.Drawing.Size(161, 22);
-            this.classroomtitle.TabIndex = 113;
-            this.classroomtitle.Text = "Classroom Name";
-            // 
-            // label17
-            // 
-            this.label17.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress;
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(52, 137);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(127, 22);
-            this.label17.TabIndex = 115;
-            this.label17.Text = "Access Code";
-            // 
-            // copyaccesscode
-            // 
-            this.copyaccesscode.Location = new System.Drawing.Point(211, 225);
-            this.copyaccesscode.Margin = new System.Windows.Forms.Padding(4);
-            this.copyaccesscode.Name = "copyaccesscode";
-            this.copyaccesscode.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
-            this.copyaccesscode.OverrideDefault.Back.ColorAngle = 45F;
-            this.copyaccesscode.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
-            this.copyaccesscode.OverrideDefault.Border.ColorAngle = 45F;
-            this.copyaccesscode.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.copyaccesscode.OverrideDefault.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.copyaccesscode.OverrideDefault.Border.Rounding = 20;
-            this.copyaccesscode.OverrideDefault.Border.Width = 1;
-            this.copyaccesscode.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.copyaccesscode.Size = new System.Drawing.Size(436, 50);
-            this.copyaccesscode.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.StateCommon.Back.ColorAngle = 45F;
-            this.copyaccesscode.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.StateCommon.Border.ColorAngle = 45F;
-            this.copyaccesscode.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.copyaccesscode.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.copyaccesscode.StateCommon.Border.Rounding = 20;
-            this.copyaccesscode.StateCommon.Border.Width = 1;
-            this.copyaccesscode.StateCommon.Content.Padding = new System.Windows.Forms.Padding(-3, -3, -3, -5);
-            this.copyaccesscode.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.copyaccesscode.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.copyaccesscode.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.copyaccesscode.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(145)))), ((int)(((byte)(198)))));
-            this.copyaccesscode.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(121)))), ((int)(((byte)(206)))));
-            this.copyaccesscode.StatePressed.Back.ColorAngle = 135F;
-            this.copyaccesscode.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(145)))), ((int)(((byte)(195)))));
-            this.copyaccesscode.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(121)))), ((int)(((byte)(206)))));
-            this.copyaccesscode.StatePressed.Border.ColorAngle = 135F;
-            this.copyaccesscode.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.copyaccesscode.StatePressed.Border.Rounding = 20;
-            this.copyaccesscode.StatePressed.Border.Width = 1;
-            this.copyaccesscode.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
-            this.copyaccesscode.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.StateTracking.Back.ColorAngle = 45F;
-            this.copyaccesscode.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
-            this.copyaccesscode.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
-            this.copyaccesscode.StateTracking.Border.ColorAngle = 45F;
-            this.copyaccesscode.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.copyaccesscode.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.copyaccesscode.StateTracking.Border.Rounding = 20;
-            this.copyaccesscode.StateTracking.Border.Width = 1;
-            this.copyaccesscode.TabIndex = 123;
-            this.copyaccesscode.TabStop = false;
-            this.copyaccesscode.Values.Text = "Copy Access Code to Clipboard";
-            this.copyaccesscode.Click += new System.EventHandler(this.copyaccesscode_Click);
-            // 
-            // metroSetTabControl1
-            // 
-            this.metroSetTabControl1.AnimateEasingType = MetroSet_UI.Enums.EasingType.CubeOut;
-            this.metroSetTabControl1.AnimateTime = 200;
-            this.metroSetTabControl1.BackgroundColor = System.Drawing.Color.White;
-            this.metroSetTabControl1.Controls.Add(this.metroSetSetTabPage1);
-            this.metroSetTabControl1.Controls.Add(this.uploadassignment);
-            this.metroSetTabControl1.Controls.Add(this.questionbank);
-            this.metroSetTabControl1.Controls.Add(this.exam);
-            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.metroSetTabControl1.IsDerivedStyle = true;
-            this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
-            this.metroSetTabControl1.Location = new System.Drawing.Point(12, 12);
-            this.metroSetTabControl1.Name = "metroSetTabControl1";
-            this.metroSetTabControl1.SelectedIndex = 0;
-            this.metroSetTabControl1.SelectedTextColor = System.Drawing.Color.White;
-            this.metroSetTabControl1.Size = new System.Drawing.Size(808, 463);
-            this.metroSetTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroSetTabControl1.Speed = 100;
-            this.metroSetTabControl1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetTabControl1.StyleManager = null;
-            this.metroSetTabControl1.TabIndex = 0;
-            this.metroSetTabControl1.ThemeAuthor = "Narwin";
-            this.metroSetTabControl1.ThemeName = "MetroLite";
-            this.metroSetTabControl1.UnselectedTextColor = System.Drawing.Color.Gray;
-            this.metroSetTabControl1.UseAnimation = false;
-            // 
-            // kryptonTextBox15
-            // 
-            this.kryptonTextBox15.Location = new System.Drawing.Point(211, 69);
-            this.kryptonTextBox15.Margin = new System.Windows.Forms.Padding(4);
-            this.kryptonTextBox15.Name = "kryptonTextBox15";
-            this.kryptonTextBox15.ReadOnly = true;
-            this.kryptonTextBox15.Size = new System.Drawing.Size(447, 41);
-            this.kryptonTextBox15.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.kryptonTextBox15.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonTextBox15.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonTextBox15.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonTextBox15.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonTextBox15.StateCommon.Border.Rounding = 20;
-            this.kryptonTextBox15.StateCommon.Border.Width = 2;
-            this.kryptonTextBox15.StateCommon.Content.Color1 = System.Drawing.Color.Black;
-            this.kryptonTextBox15.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonTextBox15.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
-            this.kryptonTextBox15.TabIndex = 114;
-            this.kryptonTextBox15.TextChanged += new System.EventHandler(this.kryptonTextBox15_TextChanged);
-            // 
-            // kryptonTextBox14
-            // 
-            this.kryptonTextBox14.Location = new System.Drawing.Point(211, 118);
-            this.kryptonTextBox14.Margin = new System.Windows.Forms.Padding(4);
-            this.kryptonTextBox14.Name = "kryptonTextBox14";
-            this.kryptonTextBox14.ReadOnly = true;
-            this.kryptonTextBox14.Size = new System.Drawing.Size(447, 41);
-            this.kryptonTextBox14.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.kryptonTextBox14.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonTextBox14.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonTextBox14.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonTextBox14.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonTextBox14.StateCommon.Border.Rounding = 20;
-            this.kryptonTextBox14.StateCommon.Border.Width = 2;
-            this.kryptonTextBox14.StateCommon.Content.Color1 = System.Drawing.Color.Black;
-            this.kryptonTextBox14.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.kryptonTextBox14.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
-            this.kryptonTextBox14.TabIndex = 116;
-            this.kryptonTextBox14.TextChanged += new System.EventHandler(this.kryptonTextBox14_TextChanged);
             // 
             // metroSetTabControl4
             // 
@@ -694,7 +641,7 @@
             this.metroSetSetTabPage3.IsDerivedStyle = true;
             this.metroSetSetTabPage3.Location = new System.Drawing.Point(4, 42);
             this.metroSetSetTabPage3.Name = "metroSetSetTabPage3";
-            this.metroSetSetTabPage3.Size = new System.Drawing.Size(766, 332);
+            this.metroSetSetTabPage3.Size = new System.Drawing.Size(766, 365);
             this.metroSetSetTabPage3.Style = MetroSet_UI.Enums.Style.Light;
             this.metroSetSetTabPage3.StyleManager = null;
             this.metroSetSetTabPage3.TabIndex = 1;
@@ -702,6 +649,309 @@
             this.metroSetSetTabPage3.ThemeAuthor = "Narwin";
             this.metroSetSetTabPage3.ThemeName = "MetroLite";
             this.metroSetSetTabPage3.ToolTipText = null;
+            // 
+            // metroSetSetTabPage1
+            // 
+            this.metroSetSetTabPage1.BaseColor = System.Drawing.Color.White;
+            this.metroSetSetTabPage1.Controls.Add(this.copyaccesscode);
+            this.metroSetSetTabPage1.Controls.Add(this.kryptonTextBox14);
+            this.metroSetSetTabPage1.Controls.Add(this.label17);
+            this.metroSetSetTabPage1.Controls.Add(this.kryptonTextBox15);
+            this.metroSetSetTabPage1.Controls.Add(this.classroomtitle);
+            this.metroSetSetTabPage1.Font = null;
+            this.metroSetSetTabPage1.ImageIndex = 0;
+            this.metroSetSetTabPage1.ImageKey = null;
+            this.metroSetSetTabPage1.IsDerivedStyle = true;
+            this.metroSetSetTabPage1.Location = new System.Drawing.Point(4, 42);
+            this.metroSetSetTabPage1.Name = "metroSetSetTabPage1";
+            this.metroSetSetTabPage1.Size = new System.Drawing.Size(867, 417);
+            this.metroSetSetTabPage1.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetSetTabPage1.StyleManager = null;
+            this.metroSetSetTabPage1.TabIndex = 0;
+            this.metroSetSetTabPage1.Text = "Info";
+            this.metroSetSetTabPage1.ThemeAuthor = "Narwin";
+            this.metroSetSetTabPage1.ThemeName = "MetroLite";
+            this.metroSetSetTabPage1.ToolTipText = null;
+            // 
+            // copyaccesscode
+            // 
+            this.copyaccesscode.Location = new System.Drawing.Point(211, 225);
+            this.copyaccesscode.Margin = new System.Windows.Forms.Padding(4);
+            this.copyaccesscode.Name = "copyaccesscode";
+            this.copyaccesscode.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.copyaccesscode.OverrideDefault.Back.ColorAngle = 45F;
+            this.copyaccesscode.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.copyaccesscode.OverrideDefault.Border.ColorAngle = 45F;
+            this.copyaccesscode.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.copyaccesscode.OverrideDefault.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.copyaccesscode.OverrideDefault.Border.Rounding = 20;
+            this.copyaccesscode.OverrideDefault.Border.Width = 1;
+            this.copyaccesscode.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.copyaccesscode.Size = new System.Drawing.Size(436, 50);
+            this.copyaccesscode.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.StateCommon.Back.ColorAngle = 45F;
+            this.copyaccesscode.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.StateCommon.Border.ColorAngle = 45F;
+            this.copyaccesscode.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.copyaccesscode.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.copyaccesscode.StateCommon.Border.Rounding = 20;
+            this.copyaccesscode.StateCommon.Border.Width = 1;
+            this.copyaccesscode.StateCommon.Content.Padding = new System.Windows.Forms.Padding(-3, -3, -3, -5);
+            this.copyaccesscode.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
+            this.copyaccesscode.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.copyaccesscode.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.copyaccesscode.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(145)))), ((int)(((byte)(198)))));
+            this.copyaccesscode.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(121)))), ((int)(((byte)(206)))));
+            this.copyaccesscode.StatePressed.Back.ColorAngle = 135F;
+            this.copyaccesscode.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(145)))), ((int)(((byte)(195)))));
+            this.copyaccesscode.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(121)))), ((int)(((byte)(206)))));
+            this.copyaccesscode.StatePressed.Border.ColorAngle = 135F;
+            this.copyaccesscode.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.copyaccesscode.StatePressed.Border.Rounding = 20;
+            this.copyaccesscode.StatePressed.Border.Width = 1;
+            this.copyaccesscode.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.copyaccesscode.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.StateTracking.Back.ColorAngle = 45F;
+            this.copyaccesscode.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.copyaccesscode.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.copyaccesscode.StateTracking.Border.ColorAngle = 45F;
+            this.copyaccesscode.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.copyaccesscode.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.copyaccesscode.StateTracking.Border.Rounding = 20;
+            this.copyaccesscode.StateTracking.Border.Width = 1;
+            this.copyaccesscode.TabIndex = 123;
+            this.copyaccesscode.TabStop = false;
+            this.copyaccesscode.Values.Text = "Copy Access Code to Clipboard";
+            this.copyaccesscode.Click += new System.EventHandler(this.copyaccesscode_Click);
+            // 
+            // kryptonTextBox14
+            // 
+            this.kryptonTextBox14.Location = new System.Drawing.Point(211, 118);
+            this.kryptonTextBox14.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonTextBox14.Name = "kryptonTextBox14";
+            this.kryptonTextBox14.ReadOnly = true;
+            this.kryptonTextBox14.Size = new System.Drawing.Size(447, 41);
+            this.kryptonTextBox14.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonTextBox14.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox14.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox14.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonTextBox14.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonTextBox14.StateCommon.Border.Rounding = 20;
+            this.kryptonTextBox14.StateCommon.Border.Width = 2;
+            this.kryptonTextBox14.StateCommon.Content.Color1 = System.Drawing.Color.Black;
+            this.kryptonTextBox14.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.kryptonTextBox14.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
+            this.kryptonTextBox14.TabIndex = 116;
+            this.kryptonTextBox14.TextChanged += new System.EventHandler(this.kryptonTextBox14_TextChanged);
+            // 
+            // label17
+            // 
+            this.label17.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress;
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(52, 137);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(127, 22);
+            this.label17.TabIndex = 115;
+            this.label17.Text = "Access Code";
+            // 
+            // kryptonTextBox15
+            // 
+            this.kryptonTextBox15.Location = new System.Drawing.Point(211, 69);
+            this.kryptonTextBox15.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonTextBox15.Name = "kryptonTextBox15";
+            this.kryptonTextBox15.ReadOnly = true;
+            this.kryptonTextBox15.Size = new System.Drawing.Size(447, 41);
+            this.kryptonTextBox15.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonTextBox15.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox15.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox15.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonTextBox15.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonTextBox15.StateCommon.Border.Rounding = 20;
+            this.kryptonTextBox15.StateCommon.Border.Width = 2;
+            this.kryptonTextBox15.StateCommon.Content.Color1 = System.Drawing.Color.Black;
+            this.kryptonTextBox15.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kryptonTextBox15.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
+            this.kryptonTextBox15.TabIndex = 114;
+            this.kryptonTextBox15.TextChanged += new System.EventHandler(this.kryptonTextBox15_TextChanged);
+            // 
+            // classroomtitle
+            // 
+            this.classroomtitle.AutoSize = true;
+            this.classroomtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classroomtitle.Location = new System.Drawing.Point(42, 78);
+            this.classroomtitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.classroomtitle.Name = "classroomtitle";
+            this.classroomtitle.Size = new System.Drawing.Size(161, 22);
+            this.classroomtitle.TabIndex = 113;
+            this.classroomtitle.Text = "Classroom Name";
+            // 
+            // metroSetTabControl1
+            // 
+            this.metroSetTabControl1.AnimateEasingType = MetroSet_UI.Enums.EasingType.CubeOut;
+            this.metroSetTabControl1.AnimateTime = 200;
+            this.metroSetTabControl1.BackgroundColor = System.Drawing.Color.White;
+            this.metroSetTabControl1.Controls.Add(this.metroSetSetTabPage1);
+            this.metroSetTabControl1.Controls.Add(this.uploadassignment);
+            this.metroSetTabControl1.Controls.Add(this.questionbank);
+            this.metroSetTabControl1.Controls.Add(this.exam);
+            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.metroSetTabControl1.IsDerivedStyle = true;
+            this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
+            this.metroSetTabControl1.Location = new System.Drawing.Point(12, 12);
+            this.metroSetTabControl1.Name = "metroSetTabControl1";
+            this.metroSetTabControl1.SelectedIndex = 2;
+            this.metroSetTabControl1.SelectedTextColor = System.Drawing.Color.White;
+            this.metroSetTabControl1.Size = new System.Drawing.Size(875, 463);
+            this.metroSetTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.metroSetTabControl1.Speed = 100;
+            this.metroSetTabControl1.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetTabControl1.StyleManager = null;
+            this.metroSetTabControl1.TabIndex = 0;
+            this.metroSetTabControl1.ThemeAuthor = "Narwin";
+            this.metroSetTabControl1.ThemeName = "MetroLite";
+            this.metroSetTabControl1.UnselectedTextColor = System.Drawing.Color.Gray;
+            this.metroSetTabControl1.UseAnimation = false;
+            // 
+            // kryptonTextBox2
+            // 
+            this.kryptonTextBox2.Location = new System.Drawing.Point(219, 175);
+            this.kryptonTextBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonTextBox2.Name = "kryptonTextBox2";
+            this.kryptonTextBox2.ReadOnly = true;
+            this.kryptonTextBox2.Size = new System.Drawing.Size(82, 41);
+            this.kryptonTextBox2.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonTextBox2.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox2.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox2.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonTextBox2.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonTextBox2.StateCommon.Border.Rounding = 20;
+            this.kryptonTextBox2.StateCommon.Border.Width = 2;
+            this.kryptonTextBox2.StateCommon.Content.Color1 = System.Drawing.Color.Black;
+            this.kryptonTextBox2.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.kryptonTextBox2.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
+            this.kryptonTextBox2.TabIndex = 124;
+            // 
+            // kryptonTextBox4
+            // 
+            this.kryptonTextBox4.Location = new System.Drawing.Point(219, 224);
+            this.kryptonTextBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonTextBox4.Name = "kryptonTextBox4";
+            this.kryptonTextBox4.ReadOnly = true;
+            this.kryptonTextBox4.Size = new System.Drawing.Size(82, 41);
+            this.kryptonTextBox4.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonTextBox4.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox4.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox4.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonTextBox4.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonTextBox4.StateCommon.Border.Rounding = 20;
+            this.kryptonTextBox4.StateCommon.Border.Width = 2;
+            this.kryptonTextBox4.StateCommon.Content.Color1 = System.Drawing.Color.Black;
+            this.kryptonTextBox4.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.kryptonTextBox4.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
+            this.kryptonTextBox4.TabIndex = 125;
+            // 
+            // kryptonTextBox5
+            // 
+            this.kryptonTextBox5.Location = new System.Drawing.Point(219, 277);
+            this.kryptonTextBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonTextBox5.Name = "kryptonTextBox5";
+            this.kryptonTextBox5.ReadOnly = true;
+            this.kryptonTextBox5.Size = new System.Drawing.Size(598, 41);
+            this.kryptonTextBox5.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonTextBox5.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox5.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.kryptonTextBox5.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonTextBox5.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonTextBox5.StateCommon.Border.Rounding = 20;
+            this.kryptonTextBox5.StateCommon.Border.Width = 2;
+            this.kryptonTextBox5.StateCommon.Content.Color1 = System.Drawing.Color.Black;
+            this.kryptonTextBox5.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.kryptonTextBox5.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
+            this.kryptonTextBox5.TabIndex = 126;
+            this.kryptonTextBox5.TextChanged += new System.EventHandler(this.kryptonTextBox5_TextChanged);
+            // 
+            // topiccombobox
+            // 
+            this.topiccombobox.AllowDrop = true;
+            this.topiccombobox.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.topiccombobox.BackColor = System.Drawing.Color.Transparent;
+            this.topiccombobox.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.topiccombobox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.topiccombobox.CausesValidation = false;
+            this.topiccombobox.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.topiccombobox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.topiccombobox.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            this.topiccombobox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.topiccombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.topiccombobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.topiccombobox.FormattingEnabled = true;
+            this.topiccombobox.IsDerivedStyle = true;
+            this.topiccombobox.ItemHeight = 20;
+            this.topiccombobox.Location = new System.Drawing.Point(257, 86);
+            this.topiccombobox.Name = "topiccombobox";
+            this.topiccombobox.SelectedItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.topiccombobox.SelectedItemForeColor = System.Drawing.Color.White;
+            this.topiccombobox.Size = new System.Drawing.Size(214, 26);
+            this.topiccombobox.Style = MetroSet_UI.Enums.Style.Light;
+            this.topiccombobox.StyleManager = null;
+            this.topiccombobox.TabIndex = 128;
+            this.topiccombobox.ThemeAuthor = "Narwin";
+            this.topiccombobox.ThemeName = "MetroLite";
+            this.topiccombobox.SelectedIndexChanged += new System.EventHandler(this.topiccombobox_SelectedIndexChanged);
+            // 
+            // classroomcombobox1
+            // 
+            this.classroomcombobox1.AllowDrop = true;
+            this.classroomcombobox1.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.classroomcombobox1.BackColor = System.Drawing.Color.Transparent;
+            this.classroomcombobox1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.classroomcombobox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.classroomcombobox1.CausesValidation = false;
+            this.classroomcombobox1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.classroomcombobox1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.classroomcombobox1.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            this.classroomcombobox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.classroomcombobox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.classroomcombobox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.classroomcombobox1.FormattingEnabled = true;
+            this.classroomcombobox1.IsDerivedStyle = true;
+            this.classroomcombobox1.ItemHeight = 20;
+            this.classroomcombobox1.Location = new System.Drawing.Point(257, 130);
+            this.classroomcombobox1.Name = "classroomcombobox1";
+            this.classroomcombobox1.SelectedItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.classroomcombobox1.SelectedItemForeColor = System.Drawing.Color.White;
+            this.classroomcombobox1.Size = new System.Drawing.Size(214, 26);
+            this.classroomcombobox1.Style = MetroSet_UI.Enums.Style.Light;
+            this.classroomcombobox1.StyleManager = null;
+            this.classroomcombobox1.TabIndex = 129;
+            this.classroomcombobox1.ThemeAuthor = "Narwin";
+            this.classroomcombobox1.ThemeName = "MetroLite";
+            this.classroomcombobox1.SelectedIndexChanged += new System.EventHandler(this.classroomcombobox1_SelectedIndexChanged);
             // 
             // Classroom
             // 
@@ -712,15 +962,19 @@
             this.Name = "Classroom";
             this.Text = "Classroom";
             this.exam.ResumeLayout(false);
+            this.metroSetTabControl3.ResumeLayout(false);
+            this.viewexam.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.questionbank.ResumeLayout(false);
+            this.questionbank.PerformLayout();
             this.metroSetTabControl2.ResumeLayout(false);
             this.uploadassignment.ResumeLayout(false);
-            this.metroSetSetTabPage1.ResumeLayout(false);
-            this.metroSetSetTabPage1.PerformLayout();
-            this.metroSetTabControl1.ResumeLayout(false);
             this.metroSetTabControl4.ResumeLayout(false);
             this.metroSetSetTabPage2.ResumeLayout(false);
             this.metroSetSetTabPage2.PerformLayout();
+            this.metroSetSetTabPage1.ResumeLayout(false);
+            this.metroSetSetTabPage1.PerformLayout();
+            this.metroSetTabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -757,5 +1011,18 @@
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox15;
         private System.Windows.Forms.Label classroomtitle;
         private MetroSet_UI.Controls.MetroSetTabControl metroSetTabControl1;
+        private MetroSet_UI.Child.MetroSetSetTabPage createexan;
+        private MetroSet_UI.Child.MetroSetSetTabPage viewexam;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label description;
+        private System.Windows.Forms.Label difficultylevel;
+        private System.Windows.Forms.Label points;
+        private System.Windows.Forms.Label classroomid;
+        private System.Windows.Forms.Label topic;
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox5;
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox4;
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox2;
+        private MetroSet_UI.Controls.MetroSetComboBox topiccombobox;
+        private MetroSet_UI.Controls.MetroSetComboBox classroomcombobox1;
     }
 }

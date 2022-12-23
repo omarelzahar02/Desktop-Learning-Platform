@@ -15,6 +15,8 @@ namespace Learning_DB
     {
         Controller c;
         int Classroom_ID;
+        DataTable d1;
+        DataTable d2;
         public Classroom(int C_ID)
         {
             Classroom_ID= C_ID; 
@@ -24,6 +26,14 @@ namespace Learning_DB
             dt = c.SelectClassroomByID(Classroom_ID);
             kryptonTextBox14.Text = dt.Rows[0]["Title"].ToString() ;
             kryptonTextBox15.Text = dt.Rows[0]["Access_code"].ToString() ;
+
+
+
+            d1 = new DataTable();
+            d2 = new DataTable();
+            //d1=c.
+            //topiccombobox.DataSource=
+                //classroomcombobox1.DataSource=
             
         }
 
@@ -38,6 +48,31 @@ namespace Learning_DB
         }
 
         private void kryptonTextBox15_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void kryptonTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void topiccombobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void classroomcombobox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

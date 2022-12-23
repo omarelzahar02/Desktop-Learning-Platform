@@ -1051,6 +1051,11 @@ namespace Learning_DB
         {
 
         }
+
+        private void AdminECourseComboBox_Name_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

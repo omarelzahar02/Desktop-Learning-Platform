@@ -272,7 +272,7 @@
             this.Main.ItemSize = new System.Drawing.Size(100, 60);
             this.Main.Location = new System.Drawing.Point(-6, 75);
             this.Main.Name = "Main";
-            this.Main.SelectedIndex = 0;
+            this.Main.SelectedIndex = 3;
             this.Main.SelectedTextColor = System.Drawing.Color.White;
             this.Main.Size = new System.Drawing.Size(1210, 631);
             this.Main.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -312,7 +312,7 @@
             this.AdminAdminPage.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.AdminAdminPage.Controls.Add(this.AddAdmin);
             this.AdminAdminPage.Controls.Add(this.EditAdmin);
-            this.AdminAdminPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdminAdminPage.Cursor = System.Windows.Forms.Cursors.Default;
             this.AdminAdminPage.IsDerivedStyle = false;
             this.AdminAdminPage.ItemSize = new System.Drawing.Size(100, 40);
             this.AdminAdminPage.Location = new System.Drawing.Point(-4, 0);
@@ -1112,7 +1112,7 @@
             this.AddInstructor.IsDerivedStyle = false;
             this.AddInstructor.Location = new System.Drawing.Point(4, 44);
             this.AddInstructor.Name = "AddInstructor";
-            this.AddInstructor.Size = new System.Drawing.Size(1200, 510);
+            this.AddInstructor.Size = new System.Drawing.Size(1200, 528);
             this.AddInstructor.Style = MetroSet_UI.Enums.Style.Light;
             this.AddInstructor.StyleManager = this.styleManager1;
             this.AddInstructor.TabIndex = 0;
@@ -2978,6 +2978,7 @@
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminECourseComboBox_Name.TabIndex = 85;
             this.AdminECourseComboBox_Name.Text = "Choose Student\'s Name";
+            this.AdminECourseComboBox_Name.SelectedIndexChanged += new System.EventHandler(this.AdminECourseComboBox_Name_SelectedIndexChanged);
             this.AdminECourseComboBox_Name.Enter += new System.EventHandler(this.AdminECourseComboBox_Name_Enter);
             this.AdminECourseComboBox_Name.Leave += new System.EventHandler(this.AdminECourseComboBox_Name_Leave);
             // 

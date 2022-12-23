@@ -17,7 +17,7 @@ namespace Learning_DB
         public static string SelectClassInfoForStudent = "SelectClassroomTitleCourseNameByID";
         public static string SelectClassforInstructorbyID = "SelectClassforInstructorbyID";
 
-
+        /// Insertion and Update Stored procs
         public static string InsertAdmin = "spInsertAdmin";
         public static string InsertInstructor = "spInsertInstructor";
         public static string UpdateAdmin = "spUpdateAdmin";
@@ -26,6 +26,19 @@ namespace Learning_DB
 
 
         public static string AddClassroom = "spCreateClassroom";
+
+        //Question Stored Procedures 
+        public static string AddQuestion = "spAddQuestion";
+        public static string AddQuestionOption = "spAddQuestionOption";
+        public static string AddQuestionToExam = "spAddQuestionToExam";
+
+        //Material and exam and assignment
+        public static string AddMaterial = "spAddNewMaterial";
+        public static string AddExam = "spAddExam";
+        public static string AddAssignment = "spAddAssignment";
+
+
+
 
     }
 }

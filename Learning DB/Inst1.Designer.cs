@@ -78,6 +78,7 @@
             this.UsernameBox = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.titletextbox = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.metroSetSetTabPage7 = new MetroSet_UI.Child.MetroSetSetTabPage();
+            this.accesscodebutton = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.metroSetSetTabPage2.SuspendLayout();
             this.metroSetTabControl3.SuspendLayout();
             this.metroSetSetTabPage6.SuspendLayout();
@@ -248,12 +249,12 @@
             this.metroSetTabControl3.BackgroundColor = System.Drawing.Color.White;
             this.metroSetTabControl3.Controls.Add(this.metroSetSetTabPage5);
             this.metroSetTabControl3.Controls.Add(this.metroSetSetTabPage6);
-            this.metroSetTabControl3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.metroSetTabControl3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroSetTabControl3.IsDerivedStyle = true;
             this.metroSetTabControl3.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl3.Location = new System.Drawing.Point(3, 8);
             this.metroSetTabControl3.Name = "metroSetTabControl3";
-            this.metroSetTabControl3.SelectedIndex = 1;
+            this.metroSetTabControl3.SelectedIndex = 0;
             this.metroSetTabControl3.SelectedTextColor = System.Drawing.Color.White;
             this.metroSetTabControl3.Size = new System.Drawing.Size(1166, 503);
             this.metroSetTabControl3.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -422,6 +423,7 @@
             // metroSetSetTabPage5
             // 
             this.metroSetSetTabPage5.BaseColor = System.Drawing.Color.White;
+            this.metroSetSetTabPage5.Controls.Add(this.accesscodebutton);
             this.metroSetSetTabPage5.Controls.Add(this.label9);
             this.metroSetSetTabPage5.Controls.Add(this.accesscodetextbox);
             this.metroSetSetTabPage5.Controls.Add(this.label8);
@@ -589,7 +591,7 @@
             this.metroSetTabControl2.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl2.Location = new System.Drawing.Point(3, 3);
             this.metroSetTabControl2.Name = "metroSetTabControl2";
-            this.metroSetTabControl2.SelectedIndex = 0;
+            this.metroSetTabControl2.SelectedIndex = 1;
             this.metroSetTabControl2.SelectedTextColor = System.Drawing.Color.White;
             this.metroSetTabControl2.Size = new System.Drawing.Size(1166, 503);
             this.metroSetTabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -840,12 +842,12 @@
             this.metroSetTabControl1.Controls.Add(this.metroSetSetTabPage1);
             this.metroSetTabControl1.Controls.Add(this.metroSetSetTabPage2);
             this.metroSetTabControl1.Controls.Add(this.metroSetSetTabPage7);
-            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroSetTabControl1.IsDerivedStyle = true;
             this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl1.Location = new System.Drawing.Point(12, 60);
             this.metroSetTabControl1.Name = "metroSetTabControl1";
-            this.metroSetTabControl1.SelectedIndex = 2;
+            this.metroSetTabControl1.SelectedIndex = 1;
             this.metroSetTabControl1.SelectedTextColor = System.Drawing.Color.White;
             this.metroSetTabControl1.Size = new System.Drawing.Size(1180, 564);
             this.metroSetTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -1170,6 +1172,69 @@
             this.metroSetSetTabPage7.ThemeName = "MetroLite";
             this.metroSetSetTabPage7.ToolTipText = null;
             // 
+            // accesscodebutton
+            // 
+            this.accesscodebutton.Location = new System.Drawing.Point(464, 203);
+            this.accesscodebutton.Margin = new System.Windows.Forms.Padding(4);
+            this.accesscodebutton.Name = "accesscodebutton";
+            this.accesscodebutton.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.accesscodebutton.OverrideDefault.Back.ColorAngle = 45F;
+            this.accesscodebutton.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.accesscodebutton.OverrideDefault.Border.ColorAngle = 45F;
+            this.accesscodebutton.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.accesscodebutton.OverrideDefault.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.accesscodebutton.OverrideDefault.Border.Rounding = 20;
+            this.accesscodebutton.OverrideDefault.Border.Width = 1;
+            this.accesscodebutton.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.accesscodebutton.Size = new System.Drawing.Size(230, 50);
+            this.accesscodebutton.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.StateCommon.Back.ColorAngle = 45F;
+            this.accesscodebutton.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.StateCommon.Border.ColorAngle = 45F;
+            this.accesscodebutton.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.accesscodebutton.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.accesscodebutton.StateCommon.Border.Rounding = 20;
+            this.accesscodebutton.StateCommon.Border.Width = 1;
+            this.accesscodebutton.StateCommon.Content.Padding = new System.Windows.Forms.Padding(-3, -3, -3, -5);
+            this.accesscodebutton.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
+            this.accesscodebutton.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.accesscodebutton.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accesscodebutton.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(145)))), ((int)(((byte)(198)))));
+            this.accesscodebutton.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(121)))), ((int)(((byte)(206)))));
+            this.accesscodebutton.StatePressed.Back.ColorAngle = 135F;
+            this.accesscodebutton.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(145)))), ((int)(((byte)(195)))));
+            this.accesscodebutton.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(121)))), ((int)(((byte)(206)))));
+            this.accesscodebutton.StatePressed.Border.ColorAngle = 135F;
+            this.accesscodebutton.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.accesscodebutton.StatePressed.Border.Rounding = 20;
+            this.accesscodebutton.StatePressed.Border.Width = 1;
+            this.accesscodebutton.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.accesscodebutton.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.StateTracking.Back.ColorAngle = 45F;
+            this.accesscodebutton.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(174)))), ((int)(((byte)(244)))));
+            this.accesscodebutton.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(142)))), ((int)(((byte)(254)))));
+            this.accesscodebutton.StateTracking.Border.ColorAngle = 45F;
+            this.accesscodebutton.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.accesscodebutton.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.accesscodebutton.StateTracking.Border.Rounding = 20;
+            this.accesscodebutton.StateTracking.Border.Width = 1;
+            this.accesscodebutton.TabIndex = 129;
+            this.accesscodebutton.TabStop = false;
+            this.accesscodebutton.Values.Text = "Get AccessCode";
+            this.accesscodebutton.Click += new System.EventHandler(this.accesscodebutton_Click);
+            // 
             // Inst1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -1258,5 +1323,6 @@
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox15;
         private System.Windows.Forms.Label classroomtitle;
         private MetroSet_UI.Child.MetroSetSetTabPage metroSetSetTabPage7;
+        private ComponentFactory.Krypton.Toolkit.KryptonButton accesscodebutton;
     }
 }
