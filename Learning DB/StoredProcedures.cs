@@ -13,9 +13,13 @@ namespace Learning_DB
         public static string SelectClassroomByCode = "SearchClassroomForStudent";
         public static string EnrollStudentByAccessCode = "EnrollStudentByAccessCode";
         public static string SelectInstructorsForClassByCode = "SelectInstructorsForClassByCode";
+        public static string SelectInstructorsForClassByID = "SelectInstructorsForClassByID";
+        public static string SelectClassInfoForStudent = "SelectClassroomTitleCourseNameByID";
+        
         
         
         public static string InsertAdmin = "spInsertAdmin";
         public static string UpdateAdmin = "spUpdateAdmin";
+        public static string UpdateStudent = "spUpdateStudent";
     }
 }

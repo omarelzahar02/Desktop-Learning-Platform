@@ -126,9 +126,9 @@ namespace DbHandler
             Parameters.Add("@StudentID", studentID);
             return dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
         }
-        public DataTable SelectStudentNameByID(int SID)
+        public DataTable SelectStudentByID(int SID)
         {
-            string Query = "SELECT FName + \' \' + LName FROM Student WHERE StudentID = " + SID + ";";
+            string Query = "SELECT * FROM Student WHERE StudentID = " + SID + ";";
             return dbMan.ExecuteReader(Query);
         }
         public DataTable SelectClassesForStudent(int SID)
@@ -141,6 +141,31 @@ namespace DbHandler
             string Query = "SELECT * FROM Classroom WHERE Class_ID = " + CID + ";";
             return dbMan.ExecuteReader(Query);
         }
-
+        public Tuple<DataTable, string> SelectInstructorsForClassByID(int CID)
+        {
+            string StoredProcedureName = StoredProcedures.SelectInstructorsForClassByID;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@ClassID", CID);
+            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+        }
+        public Tuple<DataTable, string> SelectClassInfoForStudent(int CID)
+        {
+            string StoredProcedureName = StoredProcedures.SelectClassInfoForStudent;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@ID", CID);
+            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+        }
+        public Tuple<int, string> UpdateStudent(string Fname, String Lname, String Email,int year,string Username, int SID )
+        {
+            string StoredProcedureName = StoredProcedures.UpdateStudent;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Fname", Fname);
+            Parameters.Add("@Lname", Lname);
+            Parameters.Add("@Email", Email);
+            Parameters.Add("@username", Username);
+            Parameters.Add("@ID", SID);
+            Parameters.Add("@year", year);
+            return dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
     }   
 }
