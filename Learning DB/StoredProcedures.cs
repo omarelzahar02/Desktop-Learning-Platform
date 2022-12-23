@@ -23,5 +23,9 @@ namespace Learning_DB
         public static string UpdateAdmin = "spUpdateAdmin";
         public static string UpdateStudent = "spUpdateStudent";
         public static string UpdateInstructor = "spUpdateInstructor";
+
+
+        public static string AddClassroom = "spCreateClassroom";
+
     }
 }

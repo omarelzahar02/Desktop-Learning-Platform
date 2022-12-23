@@ -267,14 +267,14 @@
             this.Main.Controls.Add(this.Student);
             this.Main.Controls.Add(this.History2);
             this.Main.Controls.Add(this.AdminHistoryPage);
-            this.Main.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Main.Cursor = System.Windows.Forms.Cursors.Default;
             this.Main.IsDerivedStyle = false;
             this.Main.ItemSize = new System.Drawing.Size(100, 60);
-            this.Main.Location = new System.Drawing.Point(-6, 54);
+            this.Main.Location = new System.Drawing.Point(-6, 75);
             this.Main.Name = "Main";
-            this.Main.SelectedIndex = 1;
+            this.Main.SelectedIndex = 0;
             this.Main.SelectedTextColor = System.Drawing.Color.White;
-            this.Main.Size = new System.Drawing.Size(1210, 652);
+            this.Main.Size = new System.Drawing.Size(1210, 631);
             this.Main.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.Main.Speed = 100;
             this.Main.Style = MetroSet_UI.Enums.Style.Light;
@@ -295,7 +295,7 @@
             this.Admin.IsDerivedStyle = false;
             this.Admin.Location = new System.Drawing.Point(4, 64);
             this.Admin.Name = "Admin";
-            this.Admin.Size = new System.Drawing.Size(1202, 584);
+            this.Admin.Size = new System.Drawing.Size(1202, 563);
             this.Admin.Style = MetroSet_UI.Enums.Style.Light;
             this.Admin.StyleManager = this.styleManager1;
             this.Admin.TabIndex = 0;
@@ -1006,6 +1006,7 @@
             this.AdminEAdminTextBox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEAdminTextBox_FirstName.TabIndex = 35;
             this.AdminEAdminTextBox_FirstName.Text = "Enter Admin\'s First Name";
+            this.AdminEAdminTextBox_FirstName.TextChanged += new System.EventHandler(this.AdminEAdminTextBox_FirstName_TextChanged);
             this.AdminEAdminTextBox_FirstName.Enter += new System.EventHandler(this.AdminETextBox_FirstName_Enter);
             this.AdminEAdminTextBox_FirstName.Leave += new System.EventHandler(this.AdminETextBox_FirstName_Leave);
             // 
@@ -1052,7 +1053,7 @@
             this.Instructor.IsDerivedStyle = false;
             this.Instructor.Location = new System.Drawing.Point(4, 64);
             this.Instructor.Name = "Instructor";
-            this.Instructor.Size = new System.Drawing.Size(1202, 584);
+            this.Instructor.Size = new System.Drawing.Size(1202, 563);
             this.Instructor.Style = MetroSet_UI.Enums.Style.Light;
             this.Instructor.StyleManager = this.styleManager1;
             this.Instructor.TabIndex = 1;
@@ -1072,11 +1073,11 @@
             this.AdminInstructorPage.Cursor = System.Windows.Forms.Cursors.Default;
             this.AdminInstructorPage.IsDerivedStyle = false;
             this.AdminInstructorPage.ItemSize = new System.Drawing.Size(100, 40);
-            this.AdminInstructorPage.Location = new System.Drawing.Point(-4, 0);
+            this.AdminInstructorPage.Location = new System.Drawing.Point(-4, 13);
             this.AdminInstructorPage.Name = "AdminInstructorPage";
-            this.AdminInstructorPage.SelectedIndex = 0;
+            this.AdminInstructorPage.SelectedIndex = 1;
             this.AdminInstructorPage.SelectedTextColor = System.Drawing.Color.White;
-            this.AdminInstructorPage.Size = new System.Drawing.Size(1208, 589);
+            this.AdminInstructorPage.Size = new System.Drawing.Size(1208, 576);
             this.AdminInstructorPage.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.AdminInstructorPage.Speed = 100;
             this.AdminInstructorPage.Style = MetroSet_UI.Enums.Style.Light;
@@ -1111,7 +1112,7 @@
             this.AddInstructor.IsDerivedStyle = false;
             this.AddInstructor.Location = new System.Drawing.Point(4, 44);
             this.AddInstructor.Name = "AddInstructor";
-            this.AddInstructor.Size = new System.Drawing.Size(1200, 541);
+            this.AddInstructor.Size = new System.Drawing.Size(1200, 510);
             this.AddInstructor.Style = MetroSet_UI.Enums.Style.Light;
             this.AddInstructor.StyleManager = this.styleManager1;
             this.AddInstructor.TabIndex = 0;
@@ -1434,7 +1435,7 @@
             this.EditInstructor.IsDerivedStyle = false;
             this.EditInstructor.Location = new System.Drawing.Point(4, 44);
             this.EditInstructor.Name = "EditInstructor";
-            this.EditInstructor.Size = new System.Drawing.Size(1200, 541);
+            this.EditInstructor.Size = new System.Drawing.Size(1200, 528);
             this.EditInstructor.Style = MetroSet_UI.Enums.Style.Light;
             this.EditInstructor.StyleManager = this.styleManager1;
             this.EditInstructor.TabIndex = 1;
@@ -1543,6 +1544,7 @@
             this.AdminEInstructorTextbox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEInstructorTextbox_FirstName.TabIndex = 68;
             this.AdminEInstructorTextbox_FirstName.Text = "Enter Instructor\'s First Name";
+            this.AdminEInstructorTextbox_FirstName.TextChanged += new System.EventHandler(this.AdminEInstructorTextbox_FirstName_TextChanged);
             this.AdminEInstructorTextbox_FirstName.Enter += new System.EventHandler(this.AdminEInstructorTextbox_FirstName_Enter);
             this.AdminEInstructorTextbox_FirstName.Leave += new System.EventHandler(this.AdminEInstructorTextbox_FirstName_Leave);
             // 
@@ -1884,6 +1886,7 @@
             this.AdminEInstructorButton_Edit.TabIndex = 54;
             this.AdminEInstructorButton_Edit.TabStop = false;
             this.AdminEInstructorButton_Edit.Values.Text = "Edit";
+            this.AdminEInstructorButton_Edit.Click += new System.EventHandler(this.AdminEInstructorButton_Edit_Click);
             // 
             // Student
             // 
@@ -1895,7 +1898,7 @@
             this.Student.IsDerivedStyle = false;
             this.Student.Location = new System.Drawing.Point(4, 64);
             this.Student.Name = "Student";
-            this.Student.Size = new System.Drawing.Size(1202, 584);
+            this.Student.Size = new System.Drawing.Size(1202, 563);
             this.Student.Style = MetroSet_UI.Enums.Style.Light;
             this.Student.StyleManager = this.styleManager1;
             this.Student.TabIndex = 2;
@@ -2738,7 +2741,7 @@
             this.History2.IsDerivedStyle = false;
             this.History2.Location = new System.Drawing.Point(4, 64);
             this.History2.Name = "History2";
-            this.History2.Size = new System.Drawing.Size(1202, 584);
+            this.History2.Size = new System.Drawing.Size(1202, 563);
             this.History2.Style = MetroSet_UI.Enums.Style.Light;
             this.History2.StyleManager = this.styleManager1;
             this.History2.TabIndex = 5;
@@ -3300,7 +3303,7 @@
             this.AdminHistoryPage.IsDerivedStyle = false;
             this.AdminHistoryPage.Location = new System.Drawing.Point(4, 64);
             this.AdminHistoryPage.Name = "AdminHistoryPage";
-            this.AdminHistoryPage.Size = new System.Drawing.Size(1202, 584);
+            this.AdminHistoryPage.Size = new System.Drawing.Size(1202, 563);
             this.AdminHistoryPage.Style = MetroSet_UI.Enums.Style.Light;
             this.AdminHistoryPage.StyleManager = this.styleManager1;
             this.AdminHistoryPage.TabIndex = 4;
@@ -3688,6 +3691,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome Admin!";
+            this.Load += new System.EventHandler(this.AdminInterface_Load);
             this.Main.ResumeLayout(false);
             this.Admin.ResumeLayout(false);
             this.AdminAdminPage.ResumeLayout(false);
