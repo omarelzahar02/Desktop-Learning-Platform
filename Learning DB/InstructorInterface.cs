@@ -14,13 +14,13 @@ using MetroSet_UI.Forms;
 
 namespace Learning_DB
 {
-    public partial class AdminInterface : KryptonForm
+    public partial class InstructorInterface : KryptonForm
     {
         Controller Controller = new Controller();
-        public AdminInterface()
+        public InstructorInterface()
         {
             InitializeComponent();
-            User_Name.Text = "Admin";
+            User_Name.Text = "Instructor";
             Controller = new Controller();
             
         }
@@ -1030,6 +1030,16 @@ namespace Learning_DB
         private void InstructorTextbox_FirstName_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void InstructorInterface_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void User_NameLabel_Click(object sender, EventArgs e)
+        {
+            
         }
     }
     

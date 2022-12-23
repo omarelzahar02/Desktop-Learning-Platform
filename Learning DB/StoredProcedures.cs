@@ -19,7 +19,9 @@ namespace Learning_DB
 
 
         public static string InsertAdmin = "spInsertAdmin";
+        public static string InsertInstructor = "spInsertInstructor";
         public static string UpdateAdmin = "spUpdateAdmin";
         public static string UpdateStudent = "spUpdateStudent";
+        public static string UpdateInstructor = "spUpdateInstructor";
     }
 }

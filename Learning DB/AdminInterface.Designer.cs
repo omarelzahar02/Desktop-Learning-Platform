@@ -267,12 +267,12 @@
             this.Main.Controls.Add(this.Student);
             this.Main.Controls.Add(this.History2);
             this.Main.Controls.Add(this.AdminHistoryPage);
-            this.Main.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Main.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Main.IsDerivedStyle = false;
             this.Main.ItemSize = new System.Drawing.Size(100, 60);
             this.Main.Location = new System.Drawing.Point(-6, 54);
             this.Main.Name = "Main";
-            this.Main.SelectedIndex = 2;
+            this.Main.SelectedIndex = 1;
             this.Main.SelectedTextColor = System.Drawing.Color.White;
             this.Main.Size = new System.Drawing.Size(1210, 652);
             this.Main.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -376,7 +376,7 @@
             this.AdminTextBox_Password.Location = new System.Drawing.Point(204, 332);
             this.AdminTextBox_Password.Margin = new System.Windows.Forms.Padding(4);
             this.AdminTextBox_Password.Name = "AdminTextBox_Password";
-            this.AdminTextBox_Password.Size = new System.Drawing.Size(481, 45);
+            this.AdminTextBox_Password.Size = new System.Drawing.Size(481, 43);
             this.AdminTextBox_Password.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminTextBox_Password.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminTextBox_Password.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -387,7 +387,7 @@
             this.AdminTextBox_Password.StateCommon.Border.Rounding = 20;
             this.AdminTextBox_Password.StateCommon.Border.Width = 2;
             this.AdminTextBox_Password.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminTextBox_Password.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminTextBox_Password.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminTextBox_Password.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminTextBox_Password.TabIndex = 31;
             this.AdminTextBox_Password.Text = "Enter Admin\'s Password";
@@ -410,7 +410,7 @@
             this.AdminTextBox_Username.Location = new System.Drawing.Point(204, 259);
             this.AdminTextBox_Username.Margin = new System.Windows.Forms.Padding(4);
             this.AdminTextBox_Username.Name = "AdminTextBox_Username";
-            this.AdminTextBox_Username.Size = new System.Drawing.Size(481, 45);
+            this.AdminTextBox_Username.Size = new System.Drawing.Size(481, 43);
             this.AdminTextBox_Username.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminTextBox_Username.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminTextBox_Username.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -421,7 +421,7 @@
             this.AdminTextBox_Username.StateCommon.Border.Rounding = 20;
             this.AdminTextBox_Username.StateCommon.Border.Width = 2;
             this.AdminTextBox_Username.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminTextBox_Username.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminTextBox_Username.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminTextBox_Username.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminTextBox_Username.TabIndex = 29;
             this.AdminTextBox_Username.Text = "Enter Admin\'s Username";
@@ -507,7 +507,7 @@
             this.AdminTextBox_Email.Location = new System.Drawing.Point(204, 187);
             this.AdminTextBox_Email.Margin = new System.Windows.Forms.Padding(4);
             this.AdminTextBox_Email.Name = "AdminTextBox_Email";
-            this.AdminTextBox_Email.Size = new System.Drawing.Size(481, 44);
+            this.AdminTextBox_Email.Size = new System.Drawing.Size(481, 42);
             this.AdminTextBox_Email.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminTextBox_Email.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminTextBox_Email.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -518,7 +518,7 @@
             this.AdminTextBox_Email.StateCommon.Border.Rounding = 20;
             this.AdminTextBox_Email.StateCommon.Border.Width = 2;
             this.AdminTextBox_Email.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminTextBox_Email.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminTextBox_Email.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminTextBox_Email.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, -1);
             this.AdminTextBox_Email.TabIndex = 26;
             this.AdminTextBox_Email.Text = "Enter Admin\'s Email";
@@ -530,7 +530,7 @@
             this.AdminTextBox_LastName.Location = new System.Drawing.Point(204, 110);
             this.AdminTextBox_LastName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminTextBox_LastName.Name = "AdminTextBox_LastName";
-            this.AdminTextBox_LastName.Size = new System.Drawing.Size(481, 45);
+            this.AdminTextBox_LastName.Size = new System.Drawing.Size(481, 43);
             this.AdminTextBox_LastName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminTextBox_LastName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminTextBox_LastName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -541,7 +541,7 @@
             this.AdminTextBox_LastName.StateCommon.Border.Rounding = 20;
             this.AdminTextBox_LastName.StateCommon.Border.Width = 2;
             this.AdminTextBox_LastName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminTextBox_LastName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminTextBox_LastName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminTextBox_LastName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminTextBox_LastName.TabIndex = 25;
             this.AdminTextBox_LastName.Text = "Enter Admin\'s Last Name";
@@ -553,7 +553,7 @@
             this.AdminTextBox_FirstName.Location = new System.Drawing.Point(204, 37);
             this.AdminTextBox_FirstName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminTextBox_FirstName.Name = "AdminTextBox_FirstName";
-            this.AdminTextBox_FirstName.Size = new System.Drawing.Size(481, 45);
+            this.AdminTextBox_FirstName.Size = new System.Drawing.Size(481, 43);
             this.AdminTextBox_FirstName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminTextBox_FirstName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminTextBox_FirstName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -564,7 +564,7 @@
             this.AdminTextBox_FirstName.StateCommon.Border.Rounding = 20;
             this.AdminTextBox_FirstName.StateCommon.Border.Width = 2;
             this.AdminTextBox_FirstName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminTextBox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminTextBox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminTextBox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminTextBox_FirstName.TabIndex = 24;
             this.AdminTextBox_FirstName.Text = "Enter Admin\'s First Name";
@@ -652,7 +652,7 @@
             this.AdminEAdminComboBox_Username.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEAdminComboBox_Username.Name = "AdminEAdminComboBox_Username";
             this.AdminEAdminComboBox_Username.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.AdminEAdminComboBox_Username.Size = new System.Drawing.Size(396, 48);
+            this.AdminEAdminComboBox_Username.Size = new System.Drawing.Size(396, 44);
             this.AdminEAdminComboBox_Username.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -668,7 +668,7 @@
             this.AdminEAdminComboBox_Username.StateCommon.ComboBox.Border.Rounding = 20;
             this.AdminEAdminComboBox_Username.StateCommon.ComboBox.Border.Width = 2;
             this.AdminEAdminComboBox_Username.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEAdminComboBox_Username.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEAdminComboBox_Username.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEAdminComboBox_Username.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -764,7 +764,7 @@
             this.AdminEAdminTextBox_ID.Location = new System.Drawing.Point(735, 81);
             this.AdminEAdminTextBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEAdminTextBox_ID.Name = "AdminEAdminTextBox_ID";
-            this.AdminEAdminTextBox_ID.Size = new System.Drawing.Size(396, 45);
+            this.AdminEAdminTextBox_ID.Size = new System.Drawing.Size(396, 43);
             this.AdminEAdminTextBox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEAdminTextBox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEAdminTextBox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -775,7 +775,7 @@
             this.AdminEAdminTextBox_ID.StateCommon.Border.Rounding = 20;
             this.AdminEAdminTextBox_ID.StateCommon.Border.Width = 2;
             this.AdminEAdminTextBox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEAdminTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEAdminTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEAdminTextBox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEAdminTextBox_ID.TabIndex = 42;
             this.AdminEAdminTextBox_ID.Text = "Search by Admin\'s ID";
@@ -849,7 +849,7 @@
             this.AdminEAdminTextBox_Username.Location = new System.Drawing.Point(165, 256);
             this.AdminEAdminTextBox_Username.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEAdminTextBox_Username.Name = "AdminEAdminTextBox_Username";
-            this.AdminEAdminTextBox_Username.Size = new System.Drawing.Size(471, 45);
+            this.AdminEAdminTextBox_Username.Size = new System.Drawing.Size(471, 43);
             this.AdminEAdminTextBox_Username.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEAdminTextBox_Username.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEAdminTextBox_Username.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -860,7 +860,7 @@
             this.AdminEAdminTextBox_Username.StateCommon.Border.Rounding = 20;
             this.AdminEAdminTextBox_Username.StateCommon.Border.Width = 2;
             this.AdminEAdminTextBox_Username.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEAdminTextBox_Username.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEAdminTextBox_Username.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEAdminTextBox_Username.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEAdminTextBox_Username.TabIndex = 40;
             this.AdminEAdminTextBox_Username.Text = "Enter Admin\'s Username";
@@ -945,7 +945,7 @@
             this.AdminEAdminTextBox_Email.Location = new System.Drawing.Point(165, 185);
             this.AdminEAdminTextBox_Email.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEAdminTextBox_Email.Name = "AdminEAdminTextBox_Email";
-            this.AdminEAdminTextBox_Email.Size = new System.Drawing.Size(471, 45);
+            this.AdminEAdminTextBox_Email.Size = new System.Drawing.Size(471, 43);
             this.AdminEAdminTextBox_Email.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEAdminTextBox_Email.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEAdminTextBox_Email.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -956,7 +956,7 @@
             this.AdminEAdminTextBox_Email.StateCommon.Border.Rounding = 20;
             this.AdminEAdminTextBox_Email.StateCommon.Border.Width = 2;
             this.AdminEAdminTextBox_Email.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEAdminTextBox_Email.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEAdminTextBox_Email.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEAdminTextBox_Email.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEAdminTextBox_Email.TabIndex = 37;
             this.AdminEAdminTextBox_Email.Text = "Enter Admin\'s Email";
@@ -968,7 +968,7 @@
             this.AdminEAdminTextBox_LastName.Location = new System.Drawing.Point(165, 108);
             this.AdminEAdminTextBox_LastName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEAdminTextBox_LastName.Name = "AdminEAdminTextBox_LastName";
-            this.AdminEAdminTextBox_LastName.Size = new System.Drawing.Size(471, 45);
+            this.AdminEAdminTextBox_LastName.Size = new System.Drawing.Size(471, 43);
             this.AdminEAdminTextBox_LastName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEAdminTextBox_LastName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEAdminTextBox_LastName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -979,7 +979,7 @@
             this.AdminEAdminTextBox_LastName.StateCommon.Border.Rounding = 20;
             this.AdminEAdminTextBox_LastName.StateCommon.Border.Width = 2;
             this.AdminEAdminTextBox_LastName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEAdminTextBox_LastName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEAdminTextBox_LastName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEAdminTextBox_LastName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEAdminTextBox_LastName.TabIndex = 36;
             this.AdminEAdminTextBox_LastName.Text = "Enter Admin\'s Last Name";
@@ -991,7 +991,7 @@
             this.AdminEAdminTextBox_FirstName.Location = new System.Drawing.Point(165, 35);
             this.AdminEAdminTextBox_FirstName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEAdminTextBox_FirstName.Name = "AdminEAdminTextBox_FirstName";
-            this.AdminEAdminTextBox_FirstName.Size = new System.Drawing.Size(471, 45);
+            this.AdminEAdminTextBox_FirstName.Size = new System.Drawing.Size(471, 43);
             this.AdminEAdminTextBox_FirstName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEAdminTextBox_FirstName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEAdminTextBox_FirstName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1002,7 +1002,7 @@
             this.AdminEAdminTextBox_FirstName.StateCommon.Border.Rounding = 20;
             this.AdminEAdminTextBox_FirstName.StateCommon.Border.Width = 2;
             this.AdminEAdminTextBox_FirstName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEAdminTextBox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEAdminTextBox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEAdminTextBox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEAdminTextBox_FirstName.TabIndex = 35;
             this.AdminEAdminTextBox_FirstName.Text = "Enter Admin\'s First Name";
@@ -1074,7 +1074,7 @@
             this.AdminInstructorPage.ItemSize = new System.Drawing.Size(100, 40);
             this.AdminInstructorPage.Location = new System.Drawing.Point(-4, 0);
             this.AdminInstructorPage.Name = "AdminInstructorPage";
-            this.AdminInstructorPage.SelectedIndex = 1;
+            this.AdminInstructorPage.SelectedIndex = 0;
             this.AdminInstructorPage.SelectedTextColor = System.Drawing.Color.White;
             this.AdminInstructorPage.Size = new System.Drawing.Size(1208, 589);
             this.AdminInstructorPage.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -1138,7 +1138,7 @@
             this.Instructor_Title_ComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.Instructor_Title_ComboBox.Name = "Instructor_Title_ComboBox";
             this.Instructor_Title_ComboBox.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.Instructor_Title_ComboBox.Size = new System.Drawing.Size(396, 48);
+            this.Instructor_Title_ComboBox.Size = new System.Drawing.Size(396, 44);
             this.Instructor_Title_ComboBox.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -1154,7 +1154,7 @@
             this.Instructor_Title_ComboBox.StateCommon.ComboBox.Border.Rounding = 20;
             this.Instructor_Title_ComboBox.StateCommon.ComboBox.Border.Width = 2;
             this.Instructor_Title_ComboBox.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.Instructor_Title_ComboBox.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Instructor_Title_ComboBox.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Instructor_Title_ComboBox.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -1179,7 +1179,7 @@
             this.InstructorTextbox_Password.Location = new System.Drawing.Point(203, 323);
             this.InstructorTextbox_Password.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorTextbox_Password.Name = "InstructorTextbox_Password";
-            this.InstructorTextbox_Password.Size = new System.Drawing.Size(481, 45);
+            this.InstructorTextbox_Password.Size = new System.Drawing.Size(481, 43);
             this.InstructorTextbox_Password.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.InstructorTextbox_Password.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorTextbox_Password.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1190,7 +1190,7 @@
             this.InstructorTextbox_Password.StateCommon.Border.Rounding = 20;
             this.InstructorTextbox_Password.StateCommon.Border.Width = 2;
             this.InstructorTextbox_Password.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorTextbox_Password.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorTextbox_Password.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorTextbox_Password.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.InstructorTextbox_Password.TabIndex = 42;
             this.InstructorTextbox_Password.Text = "Enter Instructor\'s Password";
@@ -1213,7 +1213,7 @@
             this.InstructorTextbox_Username.Location = new System.Drawing.Point(203, 250);
             this.InstructorTextbox_Username.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorTextbox_Username.Name = "InstructorTextbox_Username";
-            this.InstructorTextbox_Username.Size = new System.Drawing.Size(481, 45);
+            this.InstructorTextbox_Username.Size = new System.Drawing.Size(481, 43);
             this.InstructorTextbox_Username.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.InstructorTextbox_Username.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorTextbox_Username.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1224,7 +1224,7 @@
             this.InstructorTextbox_Username.StateCommon.Border.Rounding = 20;
             this.InstructorTextbox_Username.StateCommon.Border.Width = 2;
             this.InstructorTextbox_Username.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorTextbox_Username.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorTextbox_Username.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorTextbox_Username.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.InstructorTextbox_Username.TabIndex = 40;
             this.InstructorTextbox_Username.Text = "Enter Instructor\'s Username";
@@ -1303,13 +1303,14 @@
             this.kryptonButton4.TabIndex = 38;
             this.kryptonButton4.TabStop = false;
             this.kryptonButton4.Values.Text = "Add";
+            this.kryptonButton4.Click += new System.EventHandler(this.kryptonButton4_Click_1);
             // 
             // InstructorTextbox_Email
             // 
             this.InstructorTextbox_Email.Location = new System.Drawing.Point(203, 178);
             this.InstructorTextbox_Email.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorTextbox_Email.Name = "InstructorTextbox_Email";
-            this.InstructorTextbox_Email.Size = new System.Drawing.Size(481, 45);
+            this.InstructorTextbox_Email.Size = new System.Drawing.Size(481, 43);
             this.InstructorTextbox_Email.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.InstructorTextbox_Email.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorTextbox_Email.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1320,7 +1321,7 @@
             this.InstructorTextbox_Email.StateCommon.Border.Rounding = 20;
             this.InstructorTextbox_Email.StateCommon.Border.Width = 2;
             this.InstructorTextbox_Email.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorTextbox_Email.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorTextbox_Email.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorTextbox_Email.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.InstructorTextbox_Email.TabIndex = 37;
             this.InstructorTextbox_Email.Text = "Enter Instructor\'s Email";
@@ -1332,7 +1333,7 @@
             this.InstructorTextbox_LastName.Location = new System.Drawing.Point(203, 105);
             this.InstructorTextbox_LastName.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorTextbox_LastName.Name = "InstructorTextbox_LastName";
-            this.InstructorTextbox_LastName.Size = new System.Drawing.Size(481, 45);
+            this.InstructorTextbox_LastName.Size = new System.Drawing.Size(481, 43);
             this.InstructorTextbox_LastName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.InstructorTextbox_LastName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorTextbox_LastName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1343,7 +1344,7 @@
             this.InstructorTextbox_LastName.StateCommon.Border.Rounding = 20;
             this.InstructorTextbox_LastName.StateCommon.Border.Width = 2;
             this.InstructorTextbox_LastName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorTextbox_LastName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorTextbox_LastName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorTextbox_LastName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.InstructorTextbox_LastName.TabIndex = 36;
             this.InstructorTextbox_LastName.Text = "Enter Instructor\'s Last Name";
@@ -1355,7 +1356,7 @@
             this.InstructorTextbox_FirstName.Location = new System.Drawing.Point(203, 32);
             this.InstructorTextbox_FirstName.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorTextbox_FirstName.Name = "InstructorTextbox_FirstName";
-            this.InstructorTextbox_FirstName.Size = new System.Drawing.Size(481, 45);
+            this.InstructorTextbox_FirstName.Size = new System.Drawing.Size(481, 43);
             this.InstructorTextbox_FirstName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.InstructorTextbox_FirstName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorTextbox_FirstName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1366,10 +1367,11 @@
             this.InstructorTextbox_FirstName.StateCommon.Border.Rounding = 20;
             this.InstructorTextbox_FirstName.StateCommon.Border.Width = 2;
             this.InstructorTextbox_FirstName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorTextbox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorTextbox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorTextbox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.InstructorTextbox_FirstName.TabIndex = 35;
             this.InstructorTextbox_FirstName.Text = "Enter Instructor\'s First Name";
+            this.InstructorTextbox_FirstName.TextChanged += new System.EventHandler(this.InstructorTextbox_FirstName_TextChanged);
             this.InstructorTextbox_FirstName.Enter += new System.EventHandler(this.InstructorTextbox_FirstName_Enter);
             this.InstructorTextbox_FirstName.Leave += new System.EventHandler(this.InstructorTextbox_FirstName_Leave);
             // 
@@ -1446,7 +1448,7 @@
             this.AdminEInstructorTextbox_Username.Location = new System.Drawing.Point(174, 248);
             this.AdminEInstructorTextbox_Username.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorTextbox_Username.Name = "AdminEInstructorTextbox_Username";
-            this.AdminEInstructorTextbox_Username.Size = new System.Drawing.Size(447, 45);
+            this.AdminEInstructorTextbox_Username.Size = new System.Drawing.Size(447, 43);
             this.AdminEInstructorTextbox_Username.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEInstructorTextbox_Username.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEInstructorTextbox_Username.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1457,7 +1459,7 @@
             this.AdminEInstructorTextbox_Username.StateCommon.Border.Rounding = 20;
             this.AdminEInstructorTextbox_Username.StateCommon.Border.Width = 2;
             this.AdminEInstructorTextbox_Username.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorTextbox_Username.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorTextbox_Username.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorTextbox_Username.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEInstructorTextbox_Username.TabIndex = 72;
             this.AdminEInstructorTextbox_Username.Text = "Enter Instructor\'s Username";
@@ -1480,7 +1482,7 @@
             this.AdminEInstructorTextbox_Email.Location = new System.Drawing.Point(174, 176);
             this.AdminEInstructorTextbox_Email.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorTextbox_Email.Name = "AdminEInstructorTextbox_Email";
-            this.AdminEInstructorTextbox_Email.Size = new System.Drawing.Size(447, 45);
+            this.AdminEInstructorTextbox_Email.Size = new System.Drawing.Size(447, 43);
             this.AdminEInstructorTextbox_Email.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEInstructorTextbox_Email.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEInstructorTextbox_Email.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1491,7 +1493,7 @@
             this.AdminEInstructorTextbox_Email.StateCommon.Border.Rounding = 20;
             this.AdminEInstructorTextbox_Email.StateCommon.Border.Width = 2;
             this.AdminEInstructorTextbox_Email.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorTextbox_Email.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorTextbox_Email.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorTextbox_Email.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEInstructorTextbox_Email.TabIndex = 70;
             this.AdminEInstructorTextbox_Email.Text = "Enter Instructor\'s Email";
@@ -1503,7 +1505,7 @@
             this.AdminEInstructorTextbox_LastName.Location = new System.Drawing.Point(174, 103);
             this.AdminEInstructorTextbox_LastName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorTextbox_LastName.Name = "AdminEInstructorTextbox_LastName";
-            this.AdminEInstructorTextbox_LastName.Size = new System.Drawing.Size(447, 45);
+            this.AdminEInstructorTextbox_LastName.Size = new System.Drawing.Size(447, 43);
             this.AdminEInstructorTextbox_LastName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEInstructorTextbox_LastName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEInstructorTextbox_LastName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1514,7 +1516,7 @@
             this.AdminEInstructorTextbox_LastName.StateCommon.Border.Rounding = 20;
             this.AdminEInstructorTextbox_LastName.StateCommon.Border.Width = 2;
             this.AdminEInstructorTextbox_LastName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorTextbox_LastName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorTextbox_LastName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorTextbox_LastName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEInstructorTextbox_LastName.TabIndex = 69;
             this.AdminEInstructorTextbox_LastName.Text = "Enter Instructor\'s Last Name";
@@ -1526,7 +1528,7 @@
             this.AdminEInstructorTextbox_FirstName.Location = new System.Drawing.Point(174, 30);
             this.AdminEInstructorTextbox_FirstName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorTextbox_FirstName.Name = "AdminEInstructorTextbox_FirstName";
-            this.AdminEInstructorTextbox_FirstName.Size = new System.Drawing.Size(447, 45);
+            this.AdminEInstructorTextbox_FirstName.Size = new System.Drawing.Size(447, 43);
             this.AdminEInstructorTextbox_FirstName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEInstructorTextbox_FirstName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEInstructorTextbox_FirstName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1537,7 +1539,7 @@
             this.AdminEInstructorTextbox_FirstName.StateCommon.Border.Rounding = 20;
             this.AdminEInstructorTextbox_FirstName.StateCommon.Border.Width = 2;
             this.AdminEInstructorTextbox_FirstName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorTextbox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorTextbox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorTextbox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEInstructorTextbox_FirstName.TabIndex = 68;
             this.AdminEInstructorTextbox_FirstName.Text = "Enter Instructor\'s First Name";
@@ -1584,7 +1586,7 @@
             this.AdminEInstructorTextbox_Title.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorTextbox_Title.Name = "AdminEInstructorTextbox_Title";
             this.AdminEInstructorTextbox_Title.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.AdminEInstructorTextbox_Title.Size = new System.Drawing.Size(396, 48);
+            this.AdminEInstructorTextbox_Title.Size = new System.Drawing.Size(396, 44);
             this.AdminEInstructorTextbox_Title.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -1600,7 +1602,7 @@
             this.AdminEInstructorTextbox_Title.StateCommon.ComboBox.Border.Rounding = 20;
             this.AdminEInstructorTextbox_Title.StateCommon.ComboBox.Border.Width = 2;
             this.AdminEInstructorTextbox_Title.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorTextbox_Title.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorTextbox_Title.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorTextbox_Title.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -1627,7 +1629,7 @@
             this.AdminEInstructorCombobox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorCombobox_Name.Name = "AdminEInstructorCombobox_Name";
             this.AdminEInstructorCombobox_Name.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.AdminEInstructorCombobox_Name.Size = new System.Drawing.Size(396, 48);
+            this.AdminEInstructorCombobox_Name.Size = new System.Drawing.Size(396, 44);
             this.AdminEInstructorCombobox_Name.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -1643,7 +1645,7 @@
             this.AdminEInstructorCombobox_Name.StateCommon.ComboBox.Border.Rounding = 20;
             this.AdminEInstructorCombobox_Name.StateCommon.ComboBox.Border.Width = 2;
             this.AdminEInstructorCombobox_Name.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorCombobox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorCombobox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorCombobox_Name.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -1741,7 +1743,7 @@
             this.AdminEInstructorTextbox_ID.Location = new System.Drawing.Point(726, 86);
             this.AdminEInstructorTextbox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEInstructorTextbox_ID.Name = "AdminEInstructorTextbox_ID";
-            this.AdminEInstructorTextbox_ID.Size = new System.Drawing.Size(396, 45);
+            this.AdminEInstructorTextbox_ID.Size = new System.Drawing.Size(396, 43);
             this.AdminEInstructorTextbox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEInstructorTextbox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEInstructorTextbox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1752,7 +1754,7 @@
             this.AdminEInstructorTextbox_ID.StateCommon.Border.Rounding = 20;
             this.AdminEInstructorTextbox_ID.StateCommon.Border.Width = 2;
             this.AdminEInstructorTextbox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEInstructorTextbox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEInstructorTextbox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEInstructorTextbox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEInstructorTextbox_ID.TabIndex = 58;
             this.AdminEInstructorTextbox_ID.Text = "Search by Instructor\'s ID";
@@ -1910,7 +1912,7 @@
             this.AdminStudentPage.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.AdminStudentPage.Controls.Add(this.AdminAddStudent);
             this.AdminStudentPage.Controls.Add(this.AdminEditStudent);
-            this.AdminStudentPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdminStudentPage.Cursor = System.Windows.Forms.Cursors.Default;
             this.AdminStudentPage.IsDerivedStyle = false;
             this.AdminStudentPage.ItemSize = new System.Drawing.Size(100, 40);
             this.AdminStudentPage.Location = new System.Drawing.Point(-4, 0);
@@ -2302,7 +2304,7 @@
             this.AdminEStudentTextBox_Level.Location = new System.Drawing.Point(157, 325);
             this.AdminEStudentTextBox_Level.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_Level.Name = "AdminEStudentTextBox_Level";
-            this.AdminEStudentTextBox_Level.Size = new System.Drawing.Size(447, 45);
+            this.AdminEStudentTextBox_Level.Size = new System.Drawing.Size(447, 43);
             this.AdminEStudentTextBox_Level.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_Level.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_Level.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2313,7 +2315,7 @@
             this.AdminEStudentTextBox_Level.StateCommon.Border.Rounding = 20;
             this.AdminEStudentTextBox_Level.StateCommon.Border.Width = 2;
             this.AdminEStudentTextBox_Level.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_Level.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_Level.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_Level.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEStudentTextBox_Level.TabIndex = 91;
             this.AdminEStudentTextBox_Level.Text = "Enter Student\'s Level";
@@ -2336,7 +2338,7 @@
             this.AdminEStudentTextBox_Username.Location = new System.Drawing.Point(157, 245);
             this.AdminEStudentTextBox_Username.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_Username.Name = "AdminEStudentTextBox_Username";
-            this.AdminEStudentTextBox_Username.Size = new System.Drawing.Size(447, 45);
+            this.AdminEStudentTextBox_Username.Size = new System.Drawing.Size(447, 43);
             this.AdminEStudentTextBox_Username.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_Username.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_Username.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2347,7 +2349,7 @@
             this.AdminEStudentTextBox_Username.StateCommon.Border.Rounding = 20;
             this.AdminEStudentTextBox_Username.StateCommon.Border.Width = 2;
             this.AdminEStudentTextBox_Username.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_Username.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_Username.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_Username.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEStudentTextBox_Username.TabIndex = 89;
             this.AdminEStudentTextBox_Username.Text = "Enter Student\'s Username";
@@ -2370,7 +2372,7 @@
             this.AdminEStudentTextBox_Email.Location = new System.Drawing.Point(157, 173);
             this.AdminEStudentTextBox_Email.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_Email.Name = "AdminEStudentTextBox_Email";
-            this.AdminEStudentTextBox_Email.Size = new System.Drawing.Size(447, 45);
+            this.AdminEStudentTextBox_Email.Size = new System.Drawing.Size(447, 43);
             this.AdminEStudentTextBox_Email.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_Email.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_Email.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2381,7 +2383,7 @@
             this.AdminEStudentTextBox_Email.StateCommon.Border.Rounding = 20;
             this.AdminEStudentTextBox_Email.StateCommon.Border.Width = 2;
             this.AdminEStudentTextBox_Email.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_Email.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_Email.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_Email.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEStudentTextBox_Email.TabIndex = 87;
             this.AdminEStudentTextBox_Email.Text = "Enter Student\'s Email";
@@ -2393,7 +2395,7 @@
             this.AdminEStudentTextBox_LastName.Location = new System.Drawing.Point(157, 100);
             this.AdminEStudentTextBox_LastName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_LastName.Name = "AdminEStudentTextBox_LastName";
-            this.AdminEStudentTextBox_LastName.Size = new System.Drawing.Size(447, 45);
+            this.AdminEStudentTextBox_LastName.Size = new System.Drawing.Size(447, 43);
             this.AdminEStudentTextBox_LastName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_LastName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_LastName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2404,7 +2406,7 @@
             this.AdminEStudentTextBox_LastName.StateCommon.Border.Rounding = 20;
             this.AdminEStudentTextBox_LastName.StateCommon.Border.Width = 2;
             this.AdminEStudentTextBox_LastName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_LastName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_LastName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_LastName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEStudentTextBox_LastName.TabIndex = 86;
             this.AdminEStudentTextBox_LastName.Text = "Enter Student\'s Last Name";
@@ -2416,7 +2418,7 @@
             this.AdminEStudentTextBox_FirstName.Location = new System.Drawing.Point(157, 27);
             this.AdminEStudentTextBox_FirstName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_FirstName.Name = "AdminEStudentTextBox_FirstName";
-            this.AdminEStudentTextBox_FirstName.Size = new System.Drawing.Size(447, 45);
+            this.AdminEStudentTextBox_FirstName.Size = new System.Drawing.Size(447, 43);
             this.AdminEStudentTextBox_FirstName.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_FirstName.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_FirstName.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2427,7 +2429,7 @@
             this.AdminEStudentTextBox_FirstName.StateCommon.Border.Rounding = 20;
             this.AdminEStudentTextBox_FirstName.StateCommon.Border.Width = 2;
             this.AdminEStudentTextBox_FirstName.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_FirstName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_FirstName.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEStudentTextBox_FirstName.TabIndex = 85;
             this.AdminEStudentTextBox_FirstName.Text = "Enter Student\'s First Name";
@@ -2474,7 +2476,7 @@
             this.AdminEStudentTextBox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_Name.Name = "AdminEStudentTextBox_Name";
             this.AdminEStudentTextBox_Name.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.AdminEStudentTextBox_Name.Size = new System.Drawing.Size(396, 48);
+            this.AdminEStudentTextBox_Name.Size = new System.Drawing.Size(396, 44);
             this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2487,7 +2489,7 @@
             this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Border.Rounding = 20;
             this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Border.Width = 2;
             this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_Name.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
@@ -2584,7 +2586,7 @@
             this.AdminEStudentTextBox_ID.Location = new System.Drawing.Point(709, 83);
             this.AdminEStudentTextBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.AdminEStudentTextBox_ID.Name = "AdminEStudentTextBox_ID";
-            this.AdminEStudentTextBox_ID.Size = new System.Drawing.Size(396, 45);
+            this.AdminEStudentTextBox_ID.Size = new System.Drawing.Size(396, 43);
             this.AdminEStudentTextBox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminEStudentTextBox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminEStudentTextBox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2595,7 +2597,7 @@
             this.AdminEStudentTextBox_ID.StateCommon.Border.Rounding = 20;
             this.AdminEStudentTextBox_ID.StateCommon.Border.Width = 2;
             this.AdminEStudentTextBox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminEStudentTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminEStudentTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminEStudentTextBox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminEStudentTextBox_ID.TabIndex = 75;
             this.AdminEStudentTextBox_ID.Text = "Search by Student\'s ID";
@@ -2957,7 +2959,7 @@
             this.AdminECourseComboBox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.AdminECourseComboBox_Name.Name = "AdminECourseComboBox_Name";
             this.AdminECourseComboBox_Name.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.AdminECourseComboBox_Name.Size = new System.Drawing.Size(396, 48);
+            this.AdminECourseComboBox_Name.Size = new System.Drawing.Size(396, 44);
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Back.Color1 = System.Drawing.Color.White;
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -2970,7 +2972,7 @@
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Border.Rounding = 20;
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Border.Width = 2;
             this.AdminECourseComboBox_Name.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminECourseComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminECourseComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminECourseComboBox_Name.TabIndex = 85;
             this.AdminECourseComboBox_Name.Text = "Choose Student\'s Name";
             this.AdminECourseComboBox_Name.Enter += new System.EventHandler(this.AdminECourseComboBox_Name_Enter);
@@ -3003,7 +3005,7 @@
             this.AdminECourseTextBox_ID.Location = new System.Drawing.Point(754, 83);
             this.AdminECourseTextBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.AdminECourseTextBox_ID.Name = "AdminECourseTextBox_ID";
-            this.AdminECourseTextBox_ID.Size = new System.Drawing.Size(396, 45);
+            this.AdminECourseTextBox_ID.Size = new System.Drawing.Size(396, 43);
             this.AdminECourseTextBox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminECourseTextBox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminECourseTextBox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3014,7 +3016,7 @@
             this.AdminECourseTextBox_ID.StateCommon.Border.Rounding = 20;
             this.AdminECourseTextBox_ID.StateCommon.Border.Width = 2;
             this.AdminECourseTextBox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminECourseTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminECourseTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminECourseTextBox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminECourseTextBox_ID.TabIndex = 82;
             this.AdminECourseTextBox_ID.Text = "Search by Student\'s ID";
@@ -3212,7 +3214,7 @@
             this.AdminECourseTextBox_Description.Location = new System.Drawing.Point(198, 223);
             this.AdminECourseTextBox_Description.Margin = new System.Windows.Forms.Padding(4);
             this.AdminECourseTextBox_Description.Name = "AdminECourseTextBox_Description";
-            this.AdminECourseTextBox_Description.Size = new System.Drawing.Size(481, 45);
+            this.AdminECourseTextBox_Description.Size = new System.Drawing.Size(481, 43);
             this.AdminECourseTextBox_Description.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminECourseTextBox_Description.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminECourseTextBox_Description.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3223,7 +3225,7 @@
             this.AdminECourseTextBox_Description.StateCommon.Border.Rounding = 20;
             this.AdminECourseTextBox_Description.StateCommon.Border.Width = 2;
             this.AdminECourseTextBox_Description.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminECourseTextBox_Description.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminECourseTextBox_Description.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminECourseTextBox_Description.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminECourseTextBox_Description.TabIndex = 74;
             this.AdminECourseTextBox_Description.Text = "Enter Course\'s Description";
@@ -3235,7 +3237,7 @@
             this.AdminECourseTextBox_Name.Location = new System.Drawing.Point(198, 83);
             this.AdminECourseTextBox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.AdminECourseTextBox_Name.Name = "AdminECourseTextBox_Name";
-            this.AdminECourseTextBox_Name.Size = new System.Drawing.Size(481, 45);
+            this.AdminECourseTextBox_Name.Size = new System.Drawing.Size(481, 43);
             this.AdminECourseTextBox_Name.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminECourseTextBox_Name.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminECourseTextBox_Name.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3246,7 +3248,7 @@
             this.AdminECourseTextBox_Name.StateCommon.Border.Rounding = 20;
             this.AdminECourseTextBox_Name.StateCommon.Border.Width = 2;
             this.AdminECourseTextBox_Name.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminECourseTextBox_Name.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminECourseTextBox_Name.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminECourseTextBox_Name.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminECourseTextBox_Name.TabIndex = 73;
             this.AdminECourseTextBox_Name.Text = "Enter Course Name";
@@ -3338,7 +3340,7 @@
             this.StudentHComboBox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.StudentHComboBox_Name.Name = "StudentHComboBox_Name";
             this.StudentHComboBox_Name.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.StudentHComboBox_Name.Size = new System.Drawing.Size(396, 48);
+            this.StudentHComboBox_Name.Size = new System.Drawing.Size(396, 44);
             this.StudentHComboBox_Name.StateCommon.ComboBox.Back.Color1 = System.Drawing.Color.White;
             this.StudentHComboBox_Name.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.StudentHComboBox_Name.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3351,7 +3353,7 @@
             this.StudentHComboBox_Name.StateCommon.ComboBox.Border.Rounding = 20;
             this.StudentHComboBox_Name.StateCommon.ComboBox.Border.Width = 2;
             this.StudentHComboBox_Name.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.StudentHComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentHComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentHComboBox_Name.TabIndex = 86;
             this.StudentHComboBox_Name.Text = "Search by Student\'s Name";
             this.StudentHComboBox_Name.Enter += new System.EventHandler(this.StudentHComboBox_Name_Enter);
@@ -3373,7 +3375,7 @@
             this.StudentHTextBox_ID.Location = new System.Drawing.Point(48, 412);
             this.StudentHTextBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.StudentHTextBox_ID.Name = "StudentHTextBox_ID";
-            this.StudentHTextBox_ID.Size = new System.Drawing.Size(396, 45);
+            this.StudentHTextBox_ID.Size = new System.Drawing.Size(396, 43);
             this.StudentHTextBox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.StudentHTextBox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.StudentHTextBox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3384,7 +3386,7 @@
             this.StudentHTextBox_ID.StateCommon.Border.Rounding = 20;
             this.StudentHTextBox_ID.StateCommon.Border.Width = 2;
             this.StudentHTextBox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.StudentHTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentHTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentHTextBox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.StudentHTextBox_ID.TabIndex = 84;
             this.StudentHTextBox_ID.Text = "Search by Student\'s ID";
@@ -3409,7 +3411,7 @@
             this.InstructorHComboBox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorHComboBox_Name.Name = "InstructorHComboBox_Name";
             this.InstructorHComboBox_Name.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.InstructorHComboBox_Name.Size = new System.Drawing.Size(396, 48);
+            this.InstructorHComboBox_Name.Size = new System.Drawing.Size(396, 44);
             this.InstructorHComboBox_Name.StateCommon.ComboBox.Back.Color1 = System.Drawing.Color.White;
             this.InstructorHComboBox_Name.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorHComboBox_Name.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3422,7 +3424,7 @@
             this.InstructorHComboBox_Name.StateCommon.ComboBox.Border.Rounding = 20;
             this.InstructorHComboBox_Name.StateCommon.ComboBox.Border.Width = 2;
             this.InstructorHComboBox_Name.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorHComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorHComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorHComboBox_Name.TabIndex = 82;
             this.InstructorHComboBox_Name.Text = "Search by Instructor\'s Name";
             this.InstructorHComboBox_Name.Enter += new System.EventHandler(this.InstructorHComboBox_Name_Enter);
@@ -3444,7 +3446,7 @@
             this.InstructorHTextBox_ID.Location = new System.Drawing.Point(48, 241);
             this.InstructorHTextBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.InstructorHTextBox_ID.Name = "InstructorHTextBox_ID";
-            this.InstructorHTextBox_ID.Size = new System.Drawing.Size(396, 45);
+            this.InstructorHTextBox_ID.Size = new System.Drawing.Size(396, 43);
             this.InstructorHTextBox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.InstructorHTextBox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.InstructorHTextBox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3455,7 +3457,7 @@
             this.InstructorHTextBox_ID.StateCommon.Border.Rounding = 20;
             this.InstructorHTextBox_ID.StateCommon.Border.Width = 2;
             this.InstructorHTextBox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.InstructorHTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InstructorHTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InstructorHTextBox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.InstructorHTextBox_ID.TabIndex = 80;
             this.InstructorHTextBox_ID.Text = "Search by Instructor\'s ID";
@@ -3480,7 +3482,7 @@
             this.AdminHComboBox_Name.Margin = new System.Windows.Forms.Padding(4);
             this.AdminHComboBox_Name.Name = "AdminHComboBox_Name";
             this.AdminHComboBox_Name.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.AdminHComboBox_Name.Size = new System.Drawing.Size(396, 48);
+            this.AdminHComboBox_Name.Size = new System.Drawing.Size(396, 44);
             this.AdminHComboBox_Name.StateCommon.ComboBox.Back.Color1 = System.Drawing.Color.White;
             this.AdminHComboBox_Name.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminHComboBox_Name.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3493,7 +3495,7 @@
             this.AdminHComboBox_Name.StateCommon.ComboBox.Border.Rounding = 20;
             this.AdminHComboBox_Name.StateCommon.ComboBox.Border.Width = 2;
             this.AdminHComboBox_Name.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminHComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminHComboBox_Name.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminHComboBox_Name.TabIndex = 78;
             this.AdminHComboBox_Name.Text = "Search by Admin\'s Name";
             this.AdminHComboBox_Name.Enter += new System.EventHandler(this.AdminHComboBox_Name_Enter);
@@ -3515,7 +3517,7 @@
             this.AdminHTextBox_ID.Location = new System.Drawing.Point(44, 71);
             this.AdminHTextBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.AdminHTextBox_ID.Name = "AdminHTextBox_ID";
-            this.AdminHTextBox_ID.Size = new System.Drawing.Size(396, 45);
+            this.AdminHTextBox_ID.Size = new System.Drawing.Size(396, 43);
             this.AdminHTextBox_ID.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.AdminHTextBox_ID.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.AdminHTextBox_ID.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -3526,7 +3528,7 @@
             this.AdminHTextBox_ID.StateCommon.Border.Rounding = 20;
             this.AdminHTextBox_ID.StateCommon.Border.Width = 2;
             this.AdminHTextBox_ID.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.AdminHTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminHTextBox_ID.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminHTextBox_ID.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.AdminHTextBox_ID.TabIndex = 76;
             this.AdminHTextBox_ID.Text = "Search by Admin\'s ID";
