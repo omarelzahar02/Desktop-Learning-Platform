@@ -30,8 +30,23 @@ namespace Learning_DB
         public static string UpdateStudent = "spUpdateStudent";
 
 
+        //add question to exam
+        public static string AddQuestionToExam = "spAddQuestionToExam";
+        public static string AddExam = "spAddExam";
+
+
+        ///add question to question bank
+        public static string AddQuestion = "spAddQuestion";
+        
+        //material and assignment upload
+        public static string AddNewMaterial = "spAddNewMaterial";
+
+
+
         public static string AddClassroom = "spCreateClassroom";
         public static string InsertSumbission = "spSubmitAssignment";
+
+
 
         public static string CheckExamAvailability = "spCheckExamAvailability";
     }
