@@ -17,11 +17,12 @@ namespace Learning_DB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inst1(10008));
+            //Application.Run(new Inst1(10008));
             //Application.Run(new StudentClasses(50002));
+            Application.Run(new Classroom(7));
 
 
-            //Application.Run(new CreateExam(1, new DateTime(2022,12,24)));
+            //Application.Run(new CreateExam(1, new DateTime(2022, 12,24)));
         }
     }
 }

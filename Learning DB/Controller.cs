@@ -428,6 +428,12 @@ namespace DbHandler
             return dbMan.ExecuteReader(Query);
         }
 
+        //public DataTable SelectQuestionsThatHaveNoAnswersbyTopic(string topic)
+        //{
+        //    string Query = "Select * FROM QUESTION WHERE QUESTION.Question_ID=" + topic + ";";
+        //    return dbMan.ExecuteReader(Query);
+        //}
+
         public Tuple<int, string> AddNewMaterial(int Classroom_id, string link, string title)
         {
             string StoredProcedureName = StoredProcedures.AddNewMaterial;
@@ -440,6 +446,22 @@ namespace DbHandler
         }
 
 
+        public Tuple<int, string> AddQuestionOption(int QID, string option, bool IsAnswer)
+        {
+            string StoredProcedureName = StoredProcedures.AddQuestionOption;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Question_ID", QID);
+            Parameters.Add("@option", option);
+            Parameters.Add("@IsAnswer", IsAnswer);
+
+            return dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+        public int getLastQuestion()
+        {
+            string Query = "SELECT IDENT_CURRENT('Question_Options');";
+            return dbMan.ExecuteNonQuery(Query);
+        }
     }
 }
        
