@@ -211,6 +211,12 @@ namespace Learning_DB
 
         private void createexambtn_Click(object sender, EventArgs e)
         {
+            if (examtitletextbox.Text == "")
+            {
+                MessageBox.Show("Cannot create an exam without a title.");
+                return;
+            }
+            
             CreateExam c = new CreateExam(Classroom_ID, dateTimePicker2.Value);
             c.Show();
         }

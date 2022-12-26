@@ -1588,7 +1588,7 @@
             this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl1.Location = new System.Drawing.Point(12, 12);
             this.metroSetTabControl1.Name = "metroSetTabControl1";
-            this.metroSetTabControl1.SelectedIndex = 1;
+            this.metroSetTabControl1.SelectedIndex = 3;
             this.metroSetTabControl1.SelectedTextColor = System.Drawing.Color.White;
             this.metroSetTabControl1.Size = new System.Drawing.Size(1113, 599);
             this.metroSetTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
@@ -1850,7 +1850,7 @@
             // 
             this.addpostextbox.Location = new System.Drawing.Point(196, 51);
             this.addpostextbox.Name = "addpostextbox";
-            this.addpostextbox.Size = new System.Drawing.Size(688, 43);
+            this.addpostextbox.Size = new System.Drawing.Size(747, 43);
             this.addpostextbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.addpostextbox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.addpostextbox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
